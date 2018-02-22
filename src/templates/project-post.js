@@ -3,27 +3,28 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 
-class BlogPostTemplate extends React.Component {
+class ProjectPostTemplate extends React.Component {
   render() {
-    const project = this.props.data;
-    console.log('contentful data on individual product site', post);
-    const siteTitle = get(this.props, 'data.name')
+    console.log(this.props);
+    const project = this.props.data.contentfulProject
+    const summary = this.props.data.contentfulProject.description.childMarkdownRemark.html
 
     return (
       <div>
-        <Helmet title={`${post.name.title} | ${siteTitle}`} />
-        <h1>{post.name.title}</h1>
-        <hr/>
+        <Helmet title={`${project.title}`} />
+        <h1>{project.name}</h1>
+        <div dangerouslySetInnerHTML={{ __html: summary }} />
+        <hr />
       </div>
     )
   }
 }
 
-export default BlogPostTemplate
+export default ProjectPostTemplate
 
 export const pageQuery = graphql`
-  query projectByName($name: contentfulProjectNameQueryString_2) {
-    contentfulProject(name: $name) {
+  query projectByName($name: String) {
+    contentfulProject(name: {eq: $name}) {
       name
       summary
       description {

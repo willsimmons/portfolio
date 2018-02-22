@@ -7,7 +7,7 @@ exports.layouts = {
 }
 
 exports.components = {
-  "component---src-templates-blog-post-js": preferDefault(require("/Users/will/Projects/portfolio/src/templates/blog-post.js")),
+  "component---src-templates-project-post-js": preferDefault(require("/Users/will/Projects/portfolio/src/templates/project-post.js")),
   "component---cache-dev-404-page-js": preferDefault(require("/Users/will/Projects/portfolio/.cache/dev-404-page.js")),
   "component---src-pages-elements-js": preferDefault(require("/Users/will/Projects/portfolio/src/pages/elements.js")),
   "component---src-pages-generic-js": preferDefault(require("/Users/will/Projects/portfolio/src/pages/generic.js")),

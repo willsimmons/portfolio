@@ -2,7 +2,7 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
-  "component---src-templates-blog-post-js": require("gatsby-module-loader?name=component---src-templates-blog-post-js!/Users/will/Projects/portfolio/src/templates/blog-post.js"),
+  "component---src-templates-project-post-js": require("gatsby-module-loader?name=component---src-templates-project-post-js!/Users/will/Projects/portfolio/src/templates/project-post.js"),
   "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/will/Projects/portfolio/.cache/dev-404-page.js"),
   "component---src-pages-elements-js": require("gatsby-module-loader?name=component---src-pages-elements-js!/Users/will/Projects/portfolio/src/pages/elements.js"),
   "component---src-pages-generic-js": require("gatsby-module-loader?name=component---src-pages-generic-js!/Users/will/Projects/portfolio/src/pages/generic.js"),
