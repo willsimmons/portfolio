@@ -1,8 +1,10 @@
+require('dotenv').config();
+
 module.exports = {
   siteMetadata: {
-    title: "Will Simmons - Software Engineer",
-    author: "Will Simmons",
-    description: "A Gatsby.js Portfolio Site based on Forty by HTML5 UP"
+    title: 'Will Simmons - Software Engineer',
+    author: 'Will Simmons',
+    description: 'A Gatsby.js Portfolio Site based on Forty by HTML5 UP',
   },
   pathPrefix: '/',
   plugins: [
@@ -10,7 +12,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/posts`,
-        name: "posts",
+        name: 'posts',
       },
     },
     {
@@ -30,13 +32,20 @@ module.exports = {
               maxWidth: 630,
             },
           },
-          "gatsby-remark-copy-linked-files",
+          'gatsby-remark-copy-linked-files',
         ],
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `${process.env.CONTENT_ID}`,
+        accessToken: `${process.env.CONTENT_TOKEN}`,
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
   ],
 }

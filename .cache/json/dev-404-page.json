@@ -1,1 +1,1 @@
-{"data":{"allSitePage":{"totalCount":7,"edges":[{"node":{"path":"/hello-world/"}},{"node":{"path":"/my-second-post/"}},{"node":{"path":"/hi-folks/"}},{"node":{"path":"/elements/"}},{"node":{"path":"/generic/"}},{"node":{"path":"/"}},{"node":{"path":"/landing/"}}]}},"pathContext":{}}
+{"data":{"allSitePage":{"totalCount":5,"edges":[{"node":{"path":"/projects/undefined/"}},{"node":{"path":"/elements/"}},{"node":{"path":"/generic/"}},{"node":{"path":"/"}},{"node":{"path":"/landing/"}}]}},"pathContext":{}}

@@ -5,17 +5,14 @@ import get from 'lodash/get'
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
+    const post = this.props.data.contentfulProduct
+    console.log('contentful data on individual product site', post);
+    const siteTitle = get(this.props, 'data.name')
 
     return (
       <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1>{post.frontmatter.title}</h1>
-        <p>
-          {post.frontmatter.date}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <Helmet title={`${post.name.title} | ${siteTitle}`} />
+        <h1>{post.name.title}</h1>
         <hr/>
       </div>
     )
@@ -32,13 +29,10 @@ export const pageQuery = graphql`
         author
       }
     }
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      id
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-      }
+    ContentfulProjects: { path: { eq: $path } }) {
+      name
+      summary
+      description
     }
   }
 `

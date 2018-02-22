@@ -17,11 +17,7 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "hello-world.json": require("/Users/will/Projects/portfolio/.cache/json/hello-world.json"),
-  "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "my-second-post.json": require("/Users/will/Projects/portfolio/.cache/json/my-second-post.json"),
-  "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "hi-folks.json": require("/Users/will/Projects/portfolio/.cache/json/hi-folks.json"),
+  "projects-undefined.json": require("/Users/will/Projects/portfolio/.cache/json/projects-undefined.json"),
   "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
   "dev-404-page.json": require("/Users/will/Projects/portfolio/.cache/json/dev-404-page.json"),
   "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),

@@ -12,11 +12,7 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "hello-world.json": require("gatsby-module-loader?name=path---hello-world!/Users/will/Projects/portfolio/.cache/json/hello-world.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "my-second-post.json": require("gatsby-module-loader?name=path---my-second-post!/Users/will/Projects/portfolio/.cache/json/my-second-post.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "hi-folks.json": require("gatsby-module-loader?name=path---hi-folks!/Users/will/Projects/portfolio/.cache/json/hi-folks.json"),
+  "projects-undefined.json": require("gatsby-module-loader?name=path---projects-undefined!/Users/will/Projects/portfolio/.cache/json/projects-undefined.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/will/Projects/portfolio/.cache/json/dev-404-page.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will/Projects/portfolio/.cache/json/layout-index.json"),

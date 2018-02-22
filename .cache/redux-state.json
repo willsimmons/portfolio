@@ -8,7 +8,7 @@
       "component": "/Users/will/Projects/portfolio/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1519271511631,
+      "updatedAt": 1519284612020,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/will/Projects/portfolio/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b2404d1ba3ee3f451b6eefc6f2091e8b",
+        "contentDigest": "78dc947efcf5b4a4a632179455ed3e8b",
         "owner": "internal-data-bridge"
       }
     },
@@ -266,7 +266,10 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -343,7 +346,7 @@
             "resolve": "/Users/will/Projects/portfolio/node_modules/gatsby-remark-images",
             "id": "Plugin gatsby-remark-images",
             "name": "gatsby-remark-images",
-            "version": "1.5.47",
+            "version": "1.5.48",
             "pluginOptions": {
               "plugins": [],
               "maxWidth": 630,
@@ -396,7 +399,10 @@
           "markdown",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -501,7 +507,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "711fe7920e68a1de3d0a721b579e3869",
+        "contentDigest": "99b47bab0be6b16f9898c03f1f9db357",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -510,7 +516,7 @@
       "resolve": "/Users/will/Projects/portfolio/node_modules/gatsby-remark-images",
       "id": "Plugin gatsby-remark-images",
       "name": "gatsby-remark-images",
-      "version": "1.5.47",
+      "version": "1.5.48",
       "pluginOptions": {
         "plugins": [],
         "maxWidth": 630,
@@ -526,7 +532,7 @@
       "packageJson": {
         "name": "gatsby-remark-images",
         "description": "Processes images in markdown so they can be used in the production build.",
-        "version": "1.5.47",
+        "version": "1.5.48",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -536,7 +542,10 @@
           "remark",
           "responsive images"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -549,7 +558,7 @@
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^1.6.31"
+            "version": "^1.6.32"
           },
           {
             "name": "is-relative-url",
@@ -585,7 +594,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "318cf29947cc1da87e9aacdbbfc4be9a",
+        "contentDigest": "054935752c2c227cc9d25a33372e1062",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -620,7 +629,10 @@
           "prismjs",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -678,6 +690,99 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-source-contentful": {
+      "resolve": "/Users/will/Projects/portfolio/node_modules/gatsby-source-contentful",
+      "id": "Plugin gatsby-source-contentful",
+      "name": "gatsby-source-contentful",
+      "version": "1.3.38",
+      "pluginOptions": {
+        "plugins": [],
+        "spaceId": "uconvssgdrn4",
+        "accessToken": "8cb942e709f28944c0b3947c10c975e966d41da4b756fe6a23315910b3805d40"
+      },
+      "nodeAPIs": [
+        "setFieldsOnGraphQLNodeType",
+        "sourceNodes",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/will/Projects/portfolio/node_modules/gatsby-source-contentful",
+      "packageJson": {
+        "name": "gatsby-source-contentful",
+        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
+        "version": "1.3.38",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "Marcus Ericsson",
+          "email": "mericsson@gmail.com",
+          "url": "mericsson.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "axios",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "contentful",
+            "version": "^4.3.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9c472b6193c902e89dade583070d51d1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-transformer-sharp": {
       "resolve": "/Users/will/Projects/portfolio/node_modules/gatsby-transformer-sharp",
       "id": "Plugin gatsby-transformer-sharp",
@@ -704,7 +809,10 @@
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -750,7 +858,7 @@
       "resolve": "/Users/will/Projects/portfolio/node_modules/gatsby-plugin-sharp",
       "id": "Plugin gatsby-plugin-sharp",
       "name": "gatsby-plugin-sharp",
-      "version": "1.6.31",
+      "version": "1.6.32",
       "pluginOptions": {
         "plugins": []
       },
@@ -761,14 +869,17 @@
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "1.6.31",
+        "version": "1.6.32",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "image",
           "sharp"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -842,7 +953,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "38a152035a70b6bddf992657c27c326f",
+        "contentDigest": "e3e99478e970eb5c1075484733f3dbe8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -869,7 +980,9 @@
         "keywords": [
           "gatsby"
         ],
-        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -927,7 +1040,10 @@
           "sass",
           "scss"
         ],
-        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -986,7 +1102,7 @@
       "resolve": "/Users/will/Projects/portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "bdfcbb347e36811b0648bbb326dd2809",
+      "version": "a1caf336c9410b63eee72188903fc437",
       "pluginOptions": {
         "plugins": []
       },
@@ -1007,6 +1123,10 @@
         "author": "Will Simmons",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "dotenv",
+            "version": "^5.0.0"
+          },
           {
             "name": "gatsby",
             "version": "^1.9.118"
@@ -1062,6 +1182,10 @@
           {
             "name": "lodash",
             "version": "^4.17.4"
+          },
+          {
+            "name": "node-fetch",
+            "version": "^2.0.0"
           }
         ],
         "devDependencies": [],
@@ -1072,7 +1196,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8cf1fcbe7de8427f60c36daa095919b6",
+        "contentDigest": "07f01a1aa7bd34028163d54500405048",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1087,12 +1211,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-22T03:51:16.910Z",
+      "buildTime": "2018-02-22T07:29:53.019Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2a1d6355615d432e401093abd57196ff",
+        "contentDigest": "37ca5c0d34b3a189a3767cd7cb5689fe",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1102,7 +1226,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "98c1b6f9cf6f069cbae60c5cb6bb5b60",
+        "contentDigest": "a027f75e216cfc66598db7536fea7c69",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1113,7 +1237,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-02-21T00:44:00.805Z",
-      "accessTime": "2018-02-22T03:51:50.225Z",
+      "accessTime": "2018-02-22T07:30:10.824Z",
       "changeTime": "2018-02-21T00:44:00.805Z",
       "birthTime": "2018-02-21T00:44:00.763Z",
       "root": "/",
@@ -1131,11 +1255,11 @@
       "blksize": 4194304,
       "ino": 5967637,
       "blocks": 0,
-      "atimeMs": 1519271510225.2664,
+      "atimeMs": 1519284610824.0737,
       "mtimeMs": 1519173840805.3074,
       "ctimeMs": 1519173840805.3074,
       "birthtimeMs": 1519173840763.2478,
-      "atime": "2018-02-22T03:51:50.225Z",
+      "atime": "2018-02-22T07:30:10.824Z",
       "mtime": "2018-02-21T00:44:00.805Z",
       "ctime": "2018-02-21T00:44:00.805Z",
       "birthtime": "2018-02-21T00:44:00.763Z"
@@ -1145,7 +1269,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c1cd13b854b527bf6662e89bf75aef2d",
+        "contentDigest": "b495f21d9b3d948afcf6722fa3b9e6be",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1156,7 +1280,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-02-21T00:44:00.764Z",
-      "accessTime": "2018-02-22T03:51:50.228Z",
+      "accessTime": "2018-02-22T07:30:10.826Z",
       "changeTime": "2018-02-21T00:44:00.764Z",
       "birthTime": "2018-02-21T00:44:00.763Z",
       "root": "/",
@@ -1174,64 +1298,21 @@
       "blksize": 4194304,
       "ino": 5967638,
       "blocks": 0,
-      "atimeMs": 1519271510227.6172,
+      "atimeMs": 1519284610826.143,
       "mtimeMs": 1519173840764.155,
       "ctimeMs": 1519173840764.155,
       "birthtimeMs": 1519173840763.2952,
-      "atime": "2018-02-22T03:51:50.228Z",
+      "atime": "2018-02-22T07:30:10.826Z",
       "mtime": "2018-02-21T00:44:00.764Z",
       "ctime": "2018-02-21T00:44:00.764Z",
       "birthtime": "2018-02-21T00:44:00.763Z"
-    },
-    "/Users/will/Projects/portfolio/src/posts/my-second-post absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/posts/my-second-post absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "cedaaec26b62a382128693df5812f05b",
-        "type": "Directory",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/will/Projects/portfolio/src/posts/my-second-post",
-      "relativePath": "my-second-post",
-      "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2018-02-21T00:44:00.805Z",
-      "accessTime": "2018-02-22T03:51:50.228Z",
-      "changeTime": "2018-02-21T00:44:00.805Z",
-      "birthTime": "2018-02-21T00:44:00.805Z",
-      "root": "/",
-      "dir": "/Users/will/Projects/portfolio/src/posts",
-      "base": "my-second-post",
-      "ext": "",
-      "name": "my-second-post",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 16877,
-      "nlink": 3,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 5967643,
-      "blocks": 0,
-      "atimeMs": 1519271510227.6553,
-      "mtimeMs": 1519173840805.3735,
-      "ctimeMs": 1519173840805.3735,
-      "birthtimeMs": 1519173840805.2715,
-      "atime": "2018-02-22T03:51:50.228Z",
-      "mtime": "2018-02-21T00:44:00.805Z",
-      "ctime": "2018-02-21T00:44:00.805Z",
-      "birthtime": "2018-02-21T00:44:00.805Z"
     },
     "/Users/will/Projects/portfolio/src/posts/hi-folks absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/posts/hi-folks absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "fa16f224cd534baf7775232d8def1c6c",
+        "contentDigest": "07b970dd3663b7a5fabdfe411e99c080",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1242,7 +1323,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-02-21T00:44:00.804Z",
-      "accessTime": "2018-02-22T03:51:50.228Z",
+      "accessTime": "2018-02-22T07:30:10.826Z",
       "changeTime": "2018-02-21T00:44:00.804Z",
       "birthTime": "2018-02-21T00:44:00.804Z",
       "root": "/",
@@ -1260,60 +1341,57 @@
       "blksize": 4194304,
       "ino": 5967641,
       "blocks": 0,
-      "atimeMs": 1519271510227.6758,
+      "atimeMs": 1519284610826.1572,
       "mtimeMs": 1519173840804.0515,
       "ctimeMs": 1519173840804.0515,
       "birthtimeMs": 1519173840803.983,
-      "atime": "2018-02-22T03:51:50.228Z",
+      "atime": "2018-02-22T07:30:10.826Z",
       "mtime": "2018-02-21T00:44:00.804Z",
       "ctime": "2018-02-21T00:44:00.804Z",
       "birthtime": "2018-02-21T00:44:00.804Z"
     },
-    "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file",
-      "children": [
-        "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark"
-      ],
+    "/Users/will/Projects/portfolio/src/posts/my-second-post absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/posts/my-second-post absPath of file",
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "72293c460c59ab906d3e224a7a2c9ebb",
-        "mediaType": "text/markdown",
-        "type": "File",
+        "contentDigest": "f860e1cc709cefa3dbf702879f2b40cb",
+        "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "posts",
-      "absolutePath": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md",
-      "relativePath": "hello-world/index.md",
-      "extension": "md",
-      "size": 866,
-      "prettySize": "866 B",
-      "modifiedTime": "2018-02-21T00:44:00.763Z",
-      "accessTime": "2018-02-21T01:00:41.617Z",
-      "changeTime": "2018-02-21T00:44:00.763Z",
-      "birthTime": "2018-02-21T00:44:00.763Z",
+      "absolutePath": "/Users/will/Projects/portfolio/src/posts/my-second-post",
+      "relativePath": "my-second-post",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-02-21T00:44:00.805Z",
+      "accessTime": "2018-02-22T07:30:10.826Z",
+      "changeTime": "2018-02-21T00:44:00.805Z",
+      "birthTime": "2018-02-21T00:44:00.805Z",
       "root": "/",
-      "dir": "/Users/will/Projects/portfolio/src/posts/hello-world",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "hello-world",
+      "dir": "/Users/will/Projects/portfolio/src/posts",
+      "base": "my-second-post",
+      "ext": "",
+      "name": "my-second-post",
+      "relativeDirectory": "",
       "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
+      "mode": 16877,
+      "nlink": 3,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967639,
-      "blocks": 8,
-      "atimeMs": 1519174841616.9424,
-      "mtimeMs": 1519173840763.4375,
-      "ctimeMs": 1519173840763.4375,
-      "birthtimeMs": 1519173840763.3633,
-      "atime": "2018-02-21T01:00:41.617Z",
-      "mtime": "2018-02-21T00:44:00.763Z",
-      "ctime": "2018-02-21T00:44:00.763Z",
-      "birthtime": "2018-02-21T00:44:00.763Z"
+      "ino": 5967643,
+      "blocks": 0,
+      "atimeMs": 1519284610826.1187,
+      "mtimeMs": 1519173840805.3735,
+      "ctimeMs": 1519173840805.3735,
+      "birthtimeMs": 1519173840805.2715,
+      "atime": "2018-02-22T07:30:10.826Z",
+      "mtime": "2018-02-21T00:44:00.805Z",
+      "ctime": "2018-02-21T00:44:00.805Z",
+      "birthtime": "2018-02-21T00:44:00.805Z"
     },
     "/Users/will/Projects/portfolio/src/posts/my-second-post/index.md absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/posts/my-second-post/index.md absPath of file",
@@ -1334,7 +1412,7 @@
       "size": 403,
       "prettySize": "403 B",
       "modifiedTime": "2018-02-21T00:44:00.805Z",
-      "accessTime": "2018-02-21T01:00:41.617Z",
+      "accessTime": "2018-02-22T07:25:03.521Z",
       "changeTime": "2018-02-21T00:44:00.805Z",
       "birthTime": "2018-02-21T00:44:00.805Z",
       "root": "/",
@@ -1352,14 +1430,60 @@
       "blksize": 4194304,
       "ino": 5967644,
       "blocks": 8,
-      "atimeMs": 1519174841616.9626,
+      "atimeMs": 1519284303520.5527,
       "mtimeMs": 1519173840805.4297,
       "ctimeMs": 1519173840805.4297,
       "birthtimeMs": 1519173840805.3674,
-      "atime": "2018-02-21T01:00:41.617Z",
+      "atime": "2018-02-22T07:25:03.521Z",
       "mtime": "2018-02-21T00:44:00.805Z",
       "ctime": "2018-02-21T00:44:00.805Z",
       "birthtime": "2018-02-21T00:44:00.805Z"
+    },
+    "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file",
+      "children": [
+        "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "72293c460c59ab906d3e224a7a2c9ebb",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md",
+      "relativePath": "hello-world/index.md",
+      "extension": "md",
+      "size": 866,
+      "prettySize": "866 B",
+      "modifiedTime": "2018-02-21T00:44:00.763Z",
+      "accessTime": "2018-02-22T07:25:03.520Z",
+      "changeTime": "2018-02-21T00:44:00.763Z",
+      "birthTime": "2018-02-21T00:44:00.763Z",
+      "root": "/",
+      "dir": "/Users/will/Projects/portfolio/src/posts/hello-world",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hello-world",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 5967639,
+      "blocks": 8,
+      "atimeMs": 1519284303520.3362,
+      "mtimeMs": 1519173840763.4375,
+      "ctimeMs": 1519173840763.4375,
+      "birthtimeMs": 1519173840763.3633,
+      "atime": "2018-02-22T07:25:03.520Z",
+      "mtime": "2018-02-21T00:44:00.763Z",
+      "ctime": "2018-02-21T00:44:00.763Z",
+      "birthtime": "2018-02-21T00:44:00.763Z"
     },
     "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md absPath of file",
@@ -1380,7 +1504,7 @@
       "size": 5495,
       "prettySize": "5.5 kB",
       "modifiedTime": "2018-02-21T00:44:00.804Z",
-      "accessTime": "2018-02-21T01:00:41.617Z",
+      "accessTime": "2018-02-22T07:25:03.520Z",
       "changeTime": "2018-02-21T00:44:00.804Z",
       "birthTime": "2018-02-21T00:44:00.804Z",
       "root": "/",
@@ -1398,34 +1522,14 @@
       "blksize": 4194304,
       "ino": 5967642,
       "blocks": 16,
-      "atimeMs": 1519174841616.9548,
+      "atimeMs": 1519284303520.4595,
       "mtimeMs": 1519173840804.1702,
       "ctimeMs": 1519173840804.1702,
       "birthtimeMs": 1519173840804.0447,
-      "atime": "2018-02-21T01:00:41.617Z",
+      "atime": "2018-02-22T07:25:03.520Z",
       "mtime": "2018-02-21T00:44:00.804Z",
       "ctime": "2018-02-21T00:44:00.804Z",
       "birthtime": "2018-02-21T00:44:00.804Z"
-    },
-    "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: Hello World\ndate: \"2015-05-01T22:12:03.284Z\"\npath: \"/hello-world/\"\n---\n\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n>A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste. The eggs may also be sold with the salted paste removed, wrapped in plastic, and vacuum packed. From the salt curing process, the salted duck eggs have a briny aroma, a gelatin-like egg white and a firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
-        "contentDigest": "dc31178611ff7999fd54c12b1b59130f",
-        "type": "MarkdownRemark",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Hello World",
-        "date": "2015-05-01T22:12:03.284Z",
-        "path": "/hello-world/",
-        "_PARENT": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file",
-        "parent": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md"
     },
     "/Users/will/Projects/portfolio/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/will/Projects/portfolio/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark",
@@ -1446,6 +1550,26 @@
       },
       "excerpt": "",
       "fileAbsolutePath": "/Users/will/Projects/portfolio/src/posts/my-second-post/index.md"
+    },
+    "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Hello World\ndate: \"2015-05-01T22:12:03.284Z\"\npath: \"/hello-world/\"\n---\n\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n>A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste. The eggs may also be sold with the salted paste removed, wrapped in plastic, and vacuum packed. From the salt curing process, the salted duck eggs have a briny aroma, a gelatin-like egg white and a firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+        "contentDigest": "dc31178611ff7999fd54c12b1b59130f",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "date": "2015-05-01T22:12:03.284Z",
+        "path": "/hello-world/",
+        "_PARENT": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file",
+        "parent": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md"
     },
     "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark",
@@ -1486,7 +1610,7 @@
       "size": 684322,
       "prettySize": "684 kB",
       "modifiedTime": "2018-02-21T00:44:00.766Z",
-      "accessTime": "2018-02-21T01:00:41.514Z",
+      "accessTime": "2018-02-22T07:25:03.520Z",
       "changeTime": "2018-02-21T00:44:00.766Z",
       "birthTime": "2018-02-21T00:44:00.764Z",
       "root": "/",
@@ -1504,11 +1628,11 @@
       "blksize": 4194304,
       "ino": 5967640,
       "blocks": 1344,
-      "atimeMs": 1519174841513.5652,
+      "atimeMs": 1519284303520.3665,
       "mtimeMs": 1519173840766.1277,
       "ctimeMs": 1519173840766.1277,
       "birthtimeMs": 1519173840764.1475,
-      "atime": "2018-02-21T01:00:41.514Z",
+      "atime": "2018-02-22T07:25:03.520Z",
       "mtime": "2018-02-21T00:44:00.766Z",
       "ctime": "2018-02-21T00:44:00.766Z",
       "birthtime": "2018-02-21T00:44:00.764Z"
@@ -1528,7 +1652,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bd295a2c6de7fc42b134f97b6e262908",
+        "contentDigest": "129fe436e20ce2bfcc9e057c4d5e62f8",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1539,7 +1663,7 @@
       "size": 448,
       "prettySize": "448 B",
       "modifiedTime": "2018-02-21T00:44:00.741Z",
-      "accessTime": "2018-02-22T03:51:50.400Z",
+      "accessTime": "2018-02-22T07:30:10.875Z",
       "changeTime": "2018-02-21T00:44:00.741Z",
       "birthTime": "2018-02-21T00:44:00.548Z",
       "root": "/",
@@ -1557,11 +1681,11 @@
       "blksize": 4194304,
       "ino": 5967576,
       "blocks": 0,
-      "atimeMs": 1519271510400.3713,
+      "atimeMs": 1519284610874.6072,
       "mtimeMs": 1519173840740.5083,
       "ctimeMs": 1519173840740.5083,
       "birthtimeMs": 1519173840547.9138,
-      "atime": "2018-02-22T03:51:50.400Z",
+      "atime": "2018-02-22T07:30:10.875Z",
       "mtime": "2018-02-21T00:44:00.741Z",
       "ctime": "2018-02-21T00:44:00.741Z",
       "birthtime": "2018-02-21T00:44:00.548Z"
@@ -1585,7 +1709,7 @@
       "size": 31758,
       "prettySize": "31.8 kB",
       "modifiedTime": "2018-02-21T00:44:00.622Z",
-      "accessTime": "2018-02-21T01:00:41.617Z",
+      "accessTime": "2018-02-22T07:25:13.148Z",
       "changeTime": "2018-02-21T00:44:00.622Z",
       "birthTime": "2018-02-21T00:44:00.622Z",
       "root": "/",
@@ -1603,11 +1727,11 @@
       "blksize": 4194304,
       "ino": 5967579,
       "blocks": 64,
-      "atimeMs": 1519174841616.707,
+      "atimeMs": 1519284313148.1528,
       "mtimeMs": 1519173840622.3494,
       "ctimeMs": 1519173840622.3494,
       "birthtimeMs": 1519173840622.036,
-      "atime": "2018-02-21T01:00:41.617Z",
+      "atime": "2018-02-22T07:25:13.148Z",
       "mtime": "2018-02-21T00:44:00.622Z",
       "ctime": "2018-02-21T00:44:00.622Z",
       "birthtime": "2018-02-21T00:44:00.622Z"
@@ -1641,7 +1765,7 @@
       "size": 107101,
       "prettySize": "107 kB",
       "modifiedTime": "2018-02-21T00:44:00.616Z",
-      "accessTime": "2018-02-21T01:00:40.572Z",
+      "accessTime": "2018-02-22T07:25:13.148Z",
       "changeTime": "2018-02-21T00:44:00.616Z",
       "birthTime": "2018-02-21T00:44:00.615Z",
       "root": "/",
@@ -1659,11 +1783,11 @@
       "blksize": 4194304,
       "ino": 5967578,
       "blocks": 216,
-      "atimeMs": 1519174840572.4712,
+      "atimeMs": 1519284313148.1414,
       "mtimeMs": 1519173840615.9612,
       "ctimeMs": 1519173840615.9612,
       "birthtimeMs": 1519173840615.2188,
-      "atime": "2018-02-21T01:00:40.572Z",
+      "atime": "2018-02-22T07:25:13.148Z",
       "mtime": "2018-02-21T00:44:00.616Z",
       "ctime": "2018-02-21T00:44:00.616Z",
       "birthtime": "2018-02-21T00:44:00.615Z"
@@ -1687,7 +1811,7 @@
       "size": 77100,
       "prettySize": "77.1 kB",
       "modifiedTime": "2018-02-21T00:44:00.647Z",
-      "accessTime": "2018-02-21T01:00:40.744Z",
+      "accessTime": "2018-02-22T07:25:13.148Z",
       "changeTime": "2018-02-21T00:44:00.647Z",
       "birthTime": "2018-02-21T00:44:00.646Z",
       "root": "/",
@@ -1705,60 +1829,14 @@
       "blksize": 4194304,
       "ino": 5967581,
       "blocks": 152,
-      "atimeMs": 1519174840743.65,
+      "atimeMs": 1519284313148.1704,
       "mtimeMs": 1519173840646.5222,
       "ctimeMs": 1519173840646.5222,
       "birthtimeMs": 1519173840646.048,
-      "atime": "2018-02-21T01:00:40.744Z",
+      "atime": "2018-02-22T07:25:13.148Z",
       "mtime": "2018-02-21T00:44:00.647Z",
       "ctime": "2018-02-21T00:44:00.647Z",
       "birthtime": "2018-02-21T00:44:00.646Z"
-    },
-    "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file",
-      "children": [
-        "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d82e61241e70622b517cab61e99a61ee",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg",
-      "relativePath": "pic05.jpg",
-      "extension": "jpg",
-      "size": 83499,
-      "prettySize": "83.5 kB",
-      "modifiedTime": "2018-02-21T00:44:00.652Z",
-      "accessTime": "2018-02-21T01:00:40.778Z",
-      "changeTime": "2018-02-21T00:44:00.652Z",
-      "birthTime": "2018-02-21T00:44:00.652Z",
-      "root": "/",
-      "dir": "/Users/will/Projects/portfolio/src/assets/images",
-      "base": "pic05.jpg",
-      "ext": ".jpg",
-      "name": "pic05",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 5967582,
-      "blocks": 168,
-      "atimeMs": 1519174840778.3225,
-      "mtimeMs": 1519173840652.0593,
-      "ctimeMs": 1519173840652.0593,
-      "birthtimeMs": 1519173840651.7078,
-      "atime": "2018-02-21T01:00:40.778Z",
-      "mtime": "2018-02-21T00:44:00.652Z",
-      "ctime": "2018-02-21T00:44:00.652Z",
-      "birthtime": "2018-02-21T00:44:00.652Z"
     },
     "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file",
@@ -1779,7 +1857,7 @@
       "size": 126687,
       "prettySize": "127 kB",
       "modifiedTime": "2018-02-21T00:44:00.666Z",
-      "accessTime": "2018-02-21T01:00:40.885Z",
+      "accessTime": "2018-02-22T07:25:03.518Z",
       "changeTime": "2018-02-21T00:44:00.666Z",
       "birthTime": "2018-02-21T00:44:00.665Z",
       "root": "/",
@@ -1797,42 +1875,42 @@
       "blksize": 4194304,
       "ino": 5967584,
       "blocks": 248,
-      "atimeMs": 1519174840885.0989,
+      "atimeMs": 1519284303517.9148,
       "mtimeMs": 1519173840666.2576,
       "ctimeMs": 1519173840666.2576,
       "birthtimeMs": 1519173840665.2295,
-      "atime": "2018-02-21T01:00:40.885Z",
+      "atime": "2018-02-22T07:25:03.518Z",
       "mtime": "2018-02-21T00:44:00.666Z",
       "ctime": "2018-02-21T00:44:00.666Z",
       "birthtime": "2018-02-21T00:44:00.665Z"
     },
-    "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file",
+    "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file",
       "children": [
-        "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp"
+        "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file >> ImageSharp"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "05653d205a36da91b3161519999f69c1",
+        "contentDigest": "d59e4b49832baeb9c62a7a9d6c070f8c",
         "mediaType": "image/jpeg",
         "type": "File",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg",
-      "relativePath": "pic06.jpg",
+      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg",
+      "relativePath": "pic09.jpg",
       "extension": "jpg",
-      "size": 115307,
-      "prettySize": "115 kB",
-      "modifiedTime": "2018-02-21T00:44:00.655Z",
-      "accessTime": "2018-02-21T01:00:40.822Z",
-      "changeTime": "2018-02-21T00:44:00.655Z",
-      "birthTime": "2018-02-21T00:44:00.654Z",
+      "size": 85946,
+      "prettySize": "85.9 kB",
+      "modifiedTime": "2018-02-21T00:44:00.720Z",
+      "accessTime": "2018-02-22T07:25:13.148Z",
+      "changeTime": "2018-02-21T00:44:00.720Z",
+      "birthTime": "2018-02-21T00:44:00.720Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/assets/images",
-      "base": "pic06.jpg",
+      "base": "pic09.jpg",
       "ext": ".jpg",
-      "name": "pic06",
+      "name": "pic09",
       "relativeDirectory": "",
       "dev": 16777221,
       "mode": 33188,
@@ -1841,44 +1919,44 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967583,
-      "blocks": 232,
-      "atimeMs": 1519174840821.5305,
-      "mtimeMs": 1519173840654.923,
-      "ctimeMs": 1519173840654.923,
-      "birthtimeMs": 1519173840654.3855,
-      "atime": "2018-02-21T01:00:40.822Z",
-      "mtime": "2018-02-21T00:44:00.655Z",
-      "ctime": "2018-02-21T00:44:00.655Z",
-      "birthtime": "2018-02-21T00:44:00.654Z"
+      "ino": 5967588,
+      "blocks": 168,
+      "atimeMs": 1519284313148.2178,
+      "mtimeMs": 1519173840720.468,
+      "ctimeMs": 1519173840720.468,
+      "birthtimeMs": 1519173840720.0454,
+      "atime": "2018-02-22T07:25:13.148Z",
+      "mtime": "2018-02-21T00:44:00.720Z",
+      "ctime": "2018-02-21T00:44:00.720Z",
+      "birthtime": "2018-02-21T00:44:00.720Z"
     },
-    "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file",
+    "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file",
       "children": [
-        "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp"
+        "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4c3ce95d53bcf4f4e5c3079df9c3e543",
+        "contentDigest": "fc2217a3259dbe4bf90380771114f39c",
         "mediaType": "image/jpeg",
         "type": "File",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg",
-      "relativePath": "pic08.jpg",
+      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg",
+      "relativePath": "pic10.jpg",
       "extension": "jpg",
-      "size": 119559,
-      "prettySize": "120 kB",
-      "modifiedTime": "2018-02-21T00:44:00.676Z",
-      "accessTime": "2018-02-21T01:00:41.048Z",
-      "changeTime": "2018-02-21T00:44:00.676Z",
-      "birthTime": "2018-02-21T00:44:00.675Z",
+      "size": 130687,
+      "prettySize": "131 kB",
+      "modifiedTime": "2018-02-21T00:44:00.727Z",
+      "accessTime": "2018-02-22T07:25:13.148Z",
+      "changeTime": "2018-02-21T00:44:00.727Z",
+      "birthTime": "2018-02-21T00:44:00.727Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/assets/images",
-      "base": "pic08.jpg",
+      "base": "pic10.jpg",
       "ext": ".jpg",
-      "name": "pic08",
+      "name": "pic10",
       "relativeDirectory": "",
       "dev": 16777221,
       "mode": 33188,
@@ -1887,16 +1965,62 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967585,
-      "blocks": 240,
-      "atimeMs": 1519174841048.2544,
-      "mtimeMs": 1519173840675.853,
-      "ctimeMs": 1519173840675.853,
-      "birthtimeMs": 1519173840675.2483,
-      "atime": "2018-02-21T01:00:41.048Z",
-      "mtime": "2018-02-21T00:44:00.676Z",
-      "ctime": "2018-02-21T00:44:00.676Z",
-      "birthtime": "2018-02-21T00:44:00.675Z"
+      "ino": 5967589,
+      "blocks": 256,
+      "atimeMs": 1519284313148.2341,
+      "mtimeMs": 1519173840727.4182,
+      "ctimeMs": 1519173840727.4182,
+      "birthtimeMs": 1519173840726.9226,
+      "atime": "2018-02-22T07:25:13.148Z",
+      "mtime": "2018-02-21T00:44:00.727Z",
+      "ctime": "2018-02-21T00:44:00.727Z",
+      "birthtime": "2018-02-21T00:44:00.727Z"
+    },
+    "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file",
+      "children": [
+        "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d9e39c8bf987cfe48a7aff0b47169898",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg",
+      "relativePath": "pic11.jpg",
+      "extension": "jpg",
+      "size": 98842,
+      "prettySize": "98.8 kB",
+      "modifiedTime": "2018-02-21T00:44:00.741Z",
+      "accessTime": "2018-02-22T07:25:13.148Z",
+      "changeTime": "2018-02-21T00:44:00.741Z",
+      "birthTime": "2018-02-21T00:44:00.741Z",
+      "root": "/",
+      "dir": "/Users/will/Projects/portfolio/src/assets/images",
+      "base": "pic11.jpg",
+      "ext": ".jpg",
+      "name": "pic11",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 5967590,
+      "blocks": 200,
+      "atimeMs": 1519284313148.2458,
+      "mtimeMs": 1519173840740.9534,
+      "ctimeMs": 1519173840740.9534,
+      "birthtimeMs": 1519173840740.5005,
+      "atime": "2018-02-22T07:25:13.148Z",
+      "mtime": "2018-02-21T00:44:00.741Z",
+      "ctime": "2018-02-21T00:44:00.741Z",
+      "birthtime": "2018-02-21T00:44:00.741Z"
     },
     "/Users/will/Projects/portfolio/src/assets/images/pic01.jpg absPath of file >> ImageSharp": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic01.jpg absPath of file >> ImageSharp",
@@ -1918,16 +2042,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file",
-      "internal": {
-        "contentDigest": "d82e61241e70622b517cab61e99a61ee",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp",
       "children": [],
@@ -1938,22 +2052,32 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp",
+    "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file >> ImageSharp",
       "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file",
+      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file",
       "internal": {
-        "contentDigest": "05653d205a36da91b3161519999f69c1",
+        "contentDigest": "d59e4b49832baeb9c62a7a9d6c070f8c",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp",
+    "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp",
       "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file",
+      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file",
       "internal": {
-        "contentDigest": "4c3ce95d53bcf4f4e5c3079df9c3e543",
+        "contentDigest": "fc2217a3259dbe4bf90380771114f39c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file",
+      "internal": {
+        "contentDigest": "d9e39c8bf987cfe48a7aff0b47169898",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1977,7 +2101,7 @@
       "size": 222587,
       "prettySize": "223 kB",
       "modifiedTime": "2018-02-21T00:44:00.625Z",
-      "accessTime": "2018-02-21T01:00:40.684Z",
+      "accessTime": "2018-02-22T07:25:13.148Z",
       "changeTime": "2018-02-21T00:44:00.625Z",
       "birthTime": "2018-02-21T00:44:00.624Z",
       "root": "/",
@@ -1995,116 +2119,14 @@
       "blksize": 4194304,
       "ino": 5967580,
       "blocks": 440,
-      "atimeMs": 1519174840684.4136,
+      "atimeMs": 1519284313148.16,
       "mtimeMs": 1519173840625.2478,
       "ctimeMs": 1519173840625.2478,
       "birthtimeMs": 1519173840624.3325,
-      "atime": "2018-02-21T01:00:40.684Z",
+      "atime": "2018-02-22T07:25:13.148Z",
       "mtime": "2018-02-21T00:44:00.625Z",
       "ctime": "2018-02-21T00:44:00.625Z",
       "birthtime": "2018-02-21T00:44:00.624Z"
-    },
-    "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file",
-      "children": [
-        "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d59e4b49832baeb9c62a7a9d6c070f8c",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg",
-      "relativePath": "pic09.jpg",
-      "extension": "jpg",
-      "size": 85946,
-      "prettySize": "85.9 kB",
-      "modifiedTime": "2018-02-21T00:44:00.720Z",
-      "accessTime": "2018-02-21T01:00:41.093Z",
-      "changeTime": "2018-02-21T00:44:00.720Z",
-      "birthTime": "2018-02-21T00:44:00.720Z",
-      "root": "/",
-      "dir": "/Users/will/Projects/portfolio/src/assets/images",
-      "base": "pic09.jpg",
-      "ext": ".jpg",
-      "name": "pic09",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 5967588,
-      "blocks": 168,
-      "atimeMs": 1519174841093.131,
-      "mtimeMs": 1519173840720.468,
-      "ctimeMs": 1519173840720.468,
-      "birthtimeMs": 1519173840720.0454,
-      "atime": "2018-02-21T01:00:41.093Z",
-      "mtime": "2018-02-21T00:44:00.720Z",
-      "ctime": "2018-02-21T00:44:00.720Z",
-      "birthtime": "2018-02-21T00:44:00.720Z"
-    },
-    "/Users/will/Projects/portfolio/src/assets/images/pic03.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic03.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic03.jpg absPath of file",
-      "internal": {
-        "contentDigest": "3677838948c068ce88d237eaea766a51",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file",
-      "children": [
-        "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d9e39c8bf987cfe48a7aff0b47169898",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg",
-      "relativePath": "pic11.jpg",
-      "extension": "jpg",
-      "size": 98842,
-      "prettySize": "98.8 kB",
-      "modifiedTime": "2018-02-21T00:44:00.741Z",
-      "accessTime": "2018-02-21T01:00:41.215Z",
-      "changeTime": "2018-02-21T00:44:00.741Z",
-      "birthTime": "2018-02-21T00:44:00.741Z",
-      "root": "/",
-      "dir": "/Users/will/Projects/portfolio/src/assets/images",
-      "base": "pic11.jpg",
-      "ext": ".jpg",
-      "name": "pic11",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 5967590,
-      "blocks": 200,
-      "atimeMs": 1519174841215.1091,
-      "mtimeMs": 1519173840740.9534,
-      "ctimeMs": 1519173840740.9534,
-      "birthtimeMs": 1519173840740.5005,
-      "atime": "2018-02-21T01:00:41.215Z",
-      "mtime": "2018-02-21T00:44:00.741Z",
-      "ctime": "2018-02-21T00:44:00.741Z",
-      "birthtime": "2018-02-21T00:44:00.741Z"
     },
     "/Users/will/Projects/portfolio/src/assets/images/banner.jpg absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/banner.jpg absPath of file",
@@ -2125,7 +2147,7 @@
       "size": 331144,
       "prettySize": "331 kB",
       "modifiedTime": "2018-02-21T00:44:00.549Z",
-      "accessTime": "2018-02-21T01:00:40.526Z",
+      "accessTime": "2018-02-22T07:25:13.148Z",
       "changeTime": "2018-02-21T00:44:00.549Z",
       "birthTime": "2018-02-21T00:44:00.548Z",
       "root": "/",
@@ -2143,31 +2165,21 @@
       "blksize": 4194304,
       "ino": 5967577,
       "blocks": 648,
-      "atimeMs": 1519174840525.7004,
+      "atimeMs": 1519284313148.1357,
       "mtimeMs": 1519173840549.4817,
       "ctimeMs": 1519173840549.4817,
       "birthtimeMs": 1519173840548.0107,
-      "atime": "2018-02-21T01:00:40.526Z",
+      "atime": "2018-02-22T07:25:13.148Z",
       "mtime": "2018-02-21T00:44:00.549Z",
       "ctime": "2018-02-21T00:44:00.549Z",
       "birthtime": "2018-02-21T00:44:00.548Z"
     },
-    "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file >> ImageSharp",
+    "/Users/will/Projects/portfolio/src/assets/images/pic03.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic03.jpg absPath of file >> ImageSharp",
       "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file",
+      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic03.jpg absPath of file",
       "internal": {
-        "contentDigest": "d59e4b49832baeb9c62a7a9d6c070f8c",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file",
-      "internal": {
-        "contentDigest": "d9e39c8bf987cfe48a7aff0b47169898",
+        "contentDigest": "3677838948c068ce88d237eaea766a51",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -2182,33 +2194,33 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file",
+    "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file",
       "children": [
-        "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp"
+        "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "fc2217a3259dbe4bf90380771114f39c",
+        "contentDigest": "d82e61241e70622b517cab61e99a61ee",
         "mediaType": "image/jpeg",
         "type": "File",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg",
-      "relativePath": "pic10.jpg",
+      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg",
+      "relativePath": "pic05.jpg",
       "extension": "jpg",
-      "size": 130687,
-      "prettySize": "131 kB",
-      "modifiedTime": "2018-02-21T00:44:00.727Z",
-      "accessTime": "2018-02-21T01:00:41.157Z",
-      "changeTime": "2018-02-21T00:44:00.727Z",
-      "birthTime": "2018-02-21T00:44:00.727Z",
+      "size": 83499,
+      "prettySize": "83.5 kB",
+      "modifiedTime": "2018-02-21T00:44:00.652Z",
+      "accessTime": "2018-02-22T07:25:13.148Z",
+      "changeTime": "2018-02-21T00:44:00.652Z",
+      "birthTime": "2018-02-21T00:44:00.652Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/assets/images",
-      "base": "pic10.jpg",
+      "base": "pic05.jpg",
       "ext": ".jpg",
-      "name": "pic10",
+      "name": "pic05",
       "relativeDirectory": "",
       "dev": 16777221,
       "mode": 33188,
@@ -2217,93 +2229,563 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967589,
-      "blocks": 256,
-      "atimeMs": 1519174841157.0557,
-      "mtimeMs": 1519173840727.4182,
-      "ctimeMs": 1519173840727.4182,
-      "birthtimeMs": 1519173840726.9226,
-      "atime": "2018-02-21T01:00:41.157Z",
-      "mtime": "2018-02-21T00:44:00.727Z",
-      "ctime": "2018-02-21T00:44:00.727Z",
-      "birthtime": "2018-02-21T00:44:00.727Z"
+      "ino": 5967582,
+      "blocks": 168,
+      "atimeMs": 1519284313148.1772,
+      "mtimeMs": 1519173840652.0593,
+      "ctimeMs": 1519173840652.0593,
+      "birthtimeMs": 1519173840651.7078,
+      "atime": "2018-02-22T07:25:13.148Z",
+      "mtime": "2018-02-21T00:44:00.652Z",
+      "ctime": "2018-02-21T00:44:00.652Z",
+      "birthtime": "2018-02-21T00:44:00.652Z"
     },
-    "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp",
+    "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp",
       "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file",
+      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file",
       "internal": {
-        "contentDigest": "fc2217a3259dbe4bf90380771114f39c",
+        "contentDigest": "d82e61241e70622b517cab61e99a61ee",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /hello-world/": {
-      "layout": "index",
-      "jsonName": "hello-world.json",
-      "internalComponentName": "ComponentHelloWorld",
-      "path": "/hello-world/",
-      "component": "/Users/will/Projects/portfolio/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "path": "/hello-world/"
-      },
-      "updatedAt": 1519271511619,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/will/Projects/portfolio/src/templates/blog-post.js",
-      "id": "SitePage /hello-world/",
-      "parent": "SOURCE",
-      "children": [],
+    "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file",
+      "children": [
+        "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "23501d37fd5d869e95c4a001414b29f1",
-        "owner": "internal-data-bridge"
+        "contentDigest": "05653d205a36da91b3161519999f69c1",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg",
+      "relativePath": "pic06.jpg",
+      "extension": "jpg",
+      "size": 115307,
+      "prettySize": "115 kB",
+      "modifiedTime": "2018-02-21T00:44:00.655Z",
+      "accessTime": "2018-02-22T07:25:13.148Z",
+      "changeTime": "2018-02-21T00:44:00.655Z",
+      "birthTime": "2018-02-21T00:44:00.654Z",
+      "root": "/",
+      "dir": "/Users/will/Projects/portfolio/src/assets/images",
+      "base": "pic06.jpg",
+      "ext": ".jpg",
+      "name": "pic06",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 5967583,
+      "blocks": 232,
+      "atimeMs": 1519284313148.185,
+      "mtimeMs": 1519173840654.923,
+      "ctimeMs": 1519173840654.923,
+      "birthtimeMs": 1519173840654.3855,
+      "atime": "2018-02-22T07:25:13.148Z",
+      "mtime": "2018-02-21T00:44:00.655Z",
+      "ctime": "2018-02-21T00:44:00.655Z",
+      "birthtime": "2018-02-21T00:44:00.654Z"
+    },
+    "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file",
+      "internal": {
+        "contentDigest": "05653d205a36da91b3161519999f69c1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /my-second-post/": {
-      "layout": "index",
-      "jsonName": "my-second-post.json",
-      "internalComponentName": "ComponentMySecondPost",
-      "path": "/my-second-post/",
-      "component": "/Users/will/Projects/portfolio/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "path": "/my-second-post/"
-      },
-      "updatedAt": 1519271511622,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/will/Projects/portfolio/src/templates/blog-post.js",
-      "id": "SitePage /my-second-post/",
-      "parent": "SOURCE",
-      "children": [],
+    "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file",
+      "children": [
+        "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "7716bb4a64bb133fbd8573acb10ce6e0",
-        "owner": "internal-data-bridge"
+        "contentDigest": "4c3ce95d53bcf4f4e5c3079df9c3e543",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg",
+      "relativePath": "pic08.jpg",
+      "extension": "jpg",
+      "size": 119559,
+      "prettySize": "120 kB",
+      "modifiedTime": "2018-02-21T00:44:00.676Z",
+      "accessTime": "2018-02-22T07:25:13.148Z",
+      "changeTime": "2018-02-21T00:44:00.676Z",
+      "birthTime": "2018-02-21T00:44:00.675Z",
+      "root": "/",
+      "dir": "/Users/will/Projects/portfolio/src/assets/images",
+      "base": "pic08.jpg",
+      "ext": ".jpg",
+      "name": "pic08",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 5967585,
+      "blocks": 240,
+      "atimeMs": 1519284313148.2087,
+      "mtimeMs": 1519173840675.853,
+      "ctimeMs": 1519173840675.853,
+      "birthtimeMs": 1519173840675.2483,
+      "atime": "2018-02-22T07:25:13.148Z",
+      "mtime": "2018-02-21T00:44:00.676Z",
+      "ctime": "2018-02-21T00:44:00.676Z",
+      "birthtime": "2018-02-21T00:44:00.675Z"
+    },
+    "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file",
+      "internal": {
+        "contentDigest": "4c3ce95d53bcf4f4e5c3079df9c3e543",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /hi-folks/": {
+    "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode": {
+      "id": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode",
+      "parent": "c4SDTfn7KucUEeQayiCYq4E",
+      "children": [
+        "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode >>> MarkdownRemark"
+      ],
+      "description": "* Extended MySQL database functionality to allow for document editing and single item sharing across users\n* Test suite utilizes Mocha, Sinon and SuperTest for stability and maintainability\n* TravisCI daily builds in AWS with TravisCI, limiting production code to test-bank approved features\n* Node.js based, project utilizes Google Cloud Vision, PayPal, and Square API's",
+      "internal": {
+        "type": "contentfulProjectDescriptionTextNode",
+        "mediaType": "text/markdown",
+        "content": "* Extended MySQL database functionality to allow for document editing and single item sharing across users\n* Test suite utilizes Mocha, Sinon and SuperTest for stability and maintainability\n* TravisCI daily builds in AWS with TravisCI, limiting production code to test-bank approved features\n* Node.js based, project utilizes Google Cloud Vision, PayPal, and Square API's",
+        "contentDigest": "56c2368df6dca3ea4e1661ad57809a4c",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode": {
+      "id": "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode",
+      "parent": "c4gkBceXkzScYSWy6CcYMAm",
+      "children": [
+        "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode >>> MarkdownRemark"
+      ],
+      "description": "- React app with NodeJS backend\n- Queried podcast data via iTunes API for fast access to vast library of content\n- Implemented social authentication strategies with Passport.js and OAuth \n- MongoDB based schema for performant lookups and to facilitate rapid development based on project scale.",
+      "internal": {
+        "type": "contentfulProjectDescriptionTextNode",
+        "mediaType": "text/markdown",
+        "content": "- React app with NodeJS backend\n- Queried podcast data via iTunes API for fast access to vast library of content\n- Implemented social authentication strategies with Passport.js and OAuth \n- MongoDB based schema for performant lookups and to facilitate rapid development based on project scale.",
+        "contentDigest": "0fb0717af5f804191be641b4cc739e05",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode": {
+      "id": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode",
+      "parent": "c520qc8KCMgQKKe0kkQimmw",
+      "children": [
+        "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode >>> MarkdownRemark"
+      ],
+      "description": "* Dockerized for easy deployment, originally deployed on AWS\n* Application state managed with Redux for maintainability and extensibility\n* Tested application with Testflight and Xcode for performance optimization\n* Material Design UI in React Native for uniformity with Google Maps",
+      "internal": {
+        "type": "contentfulProjectDescriptionTextNode",
+        "mediaType": "text/markdown",
+        "content": "* Dockerized for easy deployment, originally deployed on AWS\n* Application state managed with Redux for maintainability and extensibility\n* Tested application with Testflight and Xcode for performance optimization\n* Material Design UI in React Native for uniformity with Google Maps",
+        "contentDigest": "c46dab8f2e5d917dafe9e80740d42a4c",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "Project": {
+      "id": "Project",
+      "parent": null,
+      "children": [],
+      "name": "Project",
+      "displayField": "name",
+      "description": "things Will built",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "70cf97ea29d7efe323408fb5f924ad15",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c4SDTfn7KucUEeQayiCYq4E": {
+      "name": "Tendr",
+      "summary": "bill splitting SPA",
+      "repoURL": "https://github.com/newtonian-platypus/piddle",
+      "titleScreen___NODE": "c25GMm0vLvCqy2iEioEK8cs",
+      "description___NODE": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode",
+      "id": "c4SDTfn7KucUEeQayiCYq4E",
+      "contentful_id": "4SDTfn7KucUEeQayiCYq4E",
+      "createdAt": "2018-02-20T05:52:48.041Z",
+      "updatedAt": "2018-02-20T05:52:48.041Z",
+      "parent": "Project",
+      "children": [
+        "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulProject",
+        "contentDigest": "144cfb734a24e4a75dd51e075c1dad39",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c4gkBceXkzScYSWy6CcYMAm": {
+      "name": "GreenCast",
+      "summary": "SPA for subscribing and playing podcasts",
+      "repoURL": "https://github.com/newtonian-platypus/greenCast",
+      "titleScreen___NODE": "c6pcITSlgxqiyWCieWSqguG",
+      "screens___NODE": [
+        "c3BA8d8CctGw4SuKQyGYCey"
+      ],
+      "description___NODE": "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode",
+      "id": "c4gkBceXkzScYSWy6CcYMAm",
+      "contentful_id": "4gkBceXkzScYSWy6CcYMAm",
+      "createdAt": "2018-02-20T05:33:12.707Z",
+      "updatedAt": "2018-02-20T05:41:02.418Z",
+      "parent": "Project",
+      "children": [
+        "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulProject",
+        "contentDigest": "94cd0b93ed799ce0e689660530874d50",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c520qc8KCMgQKKe0kkQimmw": {
+      "name": "Traveller",
+      "summary": "Isochron map mobile application",
+      "repoURL": "https://github.com/Alabaster-Aardvarks/Traveller",
+      "titleScreen___NODE": "c65WgfUIe64uUI6e4kUUk0M",
+      "screens___NODE": [
+        "c5p5ovWXX8Im8gCQCiUoKK8",
+        "c4IJh9C89fWWY4W8wmc0coc",
+        "c421mrSzabSu2Ak8OaIoyYw",
+        "c5et64as4YMgWcWmoUocwyw"
+      ],
+      "description___NODE": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode",
+      "id": "c520qc8KCMgQKKe0kkQimmw",
+      "contentful_id": "520qc8KCMgQKKe0kkQimmw",
+      "createdAt": "2018-02-20T05:12:36.843Z",
+      "updatedAt": "2018-02-20T05:40:32.832Z",
+      "parent": "Project",
+      "children": [
+        "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulProject",
+        "contentDigest": "a0e898d4b5d00740640aecd24d535415",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c25GMm0vLvCqy2iEioEK8cs": {
+      "id": "c25GMm0vLvCqy2iEioEK8cs",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.contentful.com/uconvssgdrn4/25GMm0vLvCqy2iEioEK8cs/bf8e90962701acda5f785ee00663cefd/tendrCover.png",
+        "details": {
+          "size": 1648870,
+          "image": {
+            "width": 2148,
+            "height": 1496
+          }
+        },
+        "fileName": "tendrCover.png",
+        "contentType": "image/png"
+      },
+      "title": "titlePage",
+      "description": "splash page for Tendr",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "808c0bc16d1f71f4badd5a4f34cae9b4",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c3BA8d8CctGw4SuKQyGYCey": {
+      "id": "c3BA8d8CctGw4SuKQyGYCey",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.contentful.com/uconvssgdrn4/3BA8d8CctGw4SuKQyGYCey/bf8e90962701acda5f785ee00663cefd/UserScreen.png",
+        "details": {
+          "size": 732509,
+          "image": {
+            "width": 2554,
+            "height": 1390
+          }
+        },
+        "fileName": "UserScreen.png",
+        "contentType": "image/png"
+      },
+      "title": "user screen",
+      "description": "user screen, with subscriptions, player and list of episodes for currently playing podcast",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "f8e4511925e45c70e457422e95a2f3f3",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c6pcITSlgxqiyWCieWSqguG": {
+      "id": "c6pcITSlgxqiyWCieWSqguG",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.contentful.com/uconvssgdrn4/6pcITSlgxqiyWCieWSqguG/bf8e90962701acda5f785ee00663cefd/Title_Screen.png",
+        "details": {
+          "size": 779863,
+          "image": {
+            "width": 2542,
+            "height": 1384
+          }
+        },
+        "fileName": "Title Screen.png",
+        "contentType": "image/png"
+      },
+      "title": "greencast Title Screen",
+      "description": "title and login screen",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "3c3235904e49b1c9ceaf035a77a4117f",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c5et64as4YMgWcWmoUocwyw": {
+      "id": "c5et64as4YMgWcWmoUocwyw",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.contentful.com/uconvssgdrn4/5et64as4YMgWcWmoUocwyw/bf8e90962701acda5f785ee00663cefd/better_map_for_traveller.png",
+        "details": {
+          "size": 648459,
+          "image": {
+            "width": 750,
+            "height": 1334
+          }
+        },
+        "fileName": "better map for traveller.png",
+        "contentType": "image/png"
+      },
+      "title": "traveller smaller map screen ",
+      "description": "smaller iso map",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "07c23a92a26b609263a16e16a26779f2",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c421mrSzabSu2Ak8OaIoyYw": {
+      "id": "c421mrSzabSu2Ak8OaIoyYw",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.contentful.com/uconvssgdrn4/421mrSzabSu2Ak8OaIoyYw/bf8e90962701acda5f785ee00663cefd/isochron.png",
+        "details": {
+          "size": 53669,
+          "image": {
+            "width": 750,
+            "height": 1334
+          }
+        },
+        "fileName": "isochron.png",
+        "contentType": "image/png"
+      },
+      "title": "traveller isochrone intro",
+      "description": "what's an isochron used for",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "a11dd773c01632e094262d6c226c9632",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c4IJh9C89fWWY4W8wmc0coc": {
+      "id": "c4IJh9C89fWWY4W8wmc0coc",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.contentful.com/uconvssgdrn4/4IJh9C89fWWY4W8wmc0coc/bf8e90962701acda5f785ee00663cefd/logo.png",
+        "details": {
+          "size": 42137,
+          "image": {
+            "width": 180,
+            "height": 180
+          }
+        },
+        "fileName": "logo.png",
+        "contentType": "image/png"
+      },
+      "title": "traveller logo",
+      "description": "ios logo",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "b9221fec395e667c8a4cd77e6d6e2df7",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c3EnPmIUwOA4UsYIy4Icc6k": {
+      "id": "c3EnPmIUwOA4UsYIy4Icc6k",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.contentful.com/uconvssgdrn4/3EnPmIUwOA4UsYIy4Icc6k/bf8e90962701acda5f785ee00663cefd/bigmap-original.png",
+        "details": {
+          "size": 717098,
+          "image": {
+            "width": 750,
+            "height": 1334
+          }
+        },
+        "fileName": "bigmap-original.png",
+        "contentType": "image/png"
+      },
+      "title": "big map screen",
+      "description": "map with points of interest",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "cbc1ee5b6322c4eb1c7c3cf4eb23f215",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c5p5ovWXX8Im8gCQCiUoKK8": {
+      "id": "c5p5ovWXX8Im8gCQCiUoKK8",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.contentful.com/uconvssgdrn4/5p5ovWXX8Im8gCQCiUoKK8/bf8e90962701acda5f785ee00663cefd/travellerMapScreen.png",
+        "details": {
+          "size": 717098,
+          "image": {
+            "width": 750,
+            "height": 1334
+          }
+        },
+        "fileName": "travellerMapScreen.png",
+        "contentType": "image/png"
+      },
+      "title": "traveller user screen",
+      "description": "user screen",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "3bf9e296c76fbc7a231188261277f74e",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c65WgfUIe64uUI6e4kUUk0M": {
+      "id": "c65WgfUIe64uUI6e4kUUk0M",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.contentful.com/uconvssgdrn4/65WgfUIe64uUI6e4kUUk0M/bf8e90962701acda5f785ee00663cefd/travellerCover.png",
+        "details": {
+          "size": 30625,
+          "image": {
+            "width": 465,
+            "height": 824
+          }
+        },
+        "fileName": "travellerCover.png",
+        "contentType": "image/png"
+      },
+      "title": "travellerCover",
+      "description": "titleScreen",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "9b5135de9869fcf96b168ab868c5df65",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode >>> MarkdownRemark": {
+      "id": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode",
+      "internal": {
+        "content": "* Extended MySQL database functionality to allow for document editing and single item sharing across users\n* Test suite utilizes Mocha, Sinon and SuperTest for stability and maintainability\n* TravisCI daily builds in AWS with TravisCI, limiting production code to test-bank approved features\n* Node.js based, project utilizes Google Cloud Vision, PayPal, and Square API's",
+        "contentDigest": "4c31fd3558d1ef63d21ad7d5b06fedbf",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode",
+        "parent": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode"
+      },
+      "excerpt": ""
+    },
+    "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode >>> MarkdownRemark": {
+      "id": "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode",
+      "internal": {
+        "content": "- React app with NodeJS backend\n- Queried podcast data via iTunes API for fast access to vast library of content\n- Implemented social authentication strategies with Passport.js and OAuth \n- MongoDB based schema for performant lookups and to facilitate rapid development based on project scale.",
+        "contentDigest": "729e5a4502d00e235f6d16b2fda24f4a",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode",
+        "parent": "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode"
+      },
+      "excerpt": ""
+    },
+    "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode >>> MarkdownRemark": {
+      "id": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode",
+      "internal": {
+        "content": "* Dockerized for easy deployment, originally deployed on AWS\n* Application state managed with Redux for maintainability and extensibility\n* Tested application with Testflight and Xcode for performance optimization\n* Material Design UI in React Native for uniformity with Google Maps",
+        "contentDigest": "bd21095fd88ce07434547697dc16f8a9",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode",
+        "parent": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode"
+      },
+      "excerpt": ""
+    },
+    "SitePage /projects/undefined/": {
       "layout": "index",
-      "jsonName": "hi-folks.json",
-      "internalComponentName": "ComponentHiFolks",
-      "path": "/hi-folks/",
+      "jsonName": "projects-undefined.json",
+      "internalComponentName": "ComponentProjectsUndefined",
+      "path": "/projects/undefined/",
       "component": "/Users/will/Projects/portfolio/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "path": "/hi-folks/"
-      },
-      "updatedAt": 1519271511622,
+      "context": {},
+      "updatedAt": 1519284612011,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/will/Projects/portfolio/src/templates/blog-post.js",
-      "id": "SitePage /hi-folks/",
+      "id": "SitePage /projects/undefined/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9e30841137202f24dcb5d4bebdc0a112",
+        "contentDigest": "447505ec0c9d8419792d9d02b8ce5465",
         "owner": "internal-data-bridge"
       }
     },
@@ -2315,7 +2797,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/elements.js",
       "componentChunkName": "component---src-pages-elements-js",
       "context": {},
-      "updatedAt": 1519271511635,
+      "updatedAt": 1519284612025,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/elements.js",
@@ -2324,7 +2806,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "eec5e73496c442fffa2d8e6d0f9d1f4a",
+        "contentDigest": "8ccfccb71a26c38d6ffc595b4284e135",
         "owner": "internal-data-bridge"
       }
     },
@@ -2336,7 +2818,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/generic.js",
       "componentChunkName": "component---src-pages-generic-js",
       "context": {},
-      "updatedAt": 1519271511665,
+      "updatedAt": 1519284612026,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/generic.js",
@@ -2345,7 +2827,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b86f4a379f8f276dc20d80aedc564240",
+        "contentDigest": "cbb46167fa9eea6035bcc036b00376e6",
         "owner": "internal-data-bridge"
       }
     },
@@ -2357,7 +2839,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1519271511667,
+      "updatedAt": 1519284612027,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/index.js",
@@ -2366,7 +2848,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c7684db2293b6ac695024d2b81ebfe72",
+        "contentDigest": "164501caff54fd96617913e5a22c8335",
         "owner": "internal-data-bridge"
       }
     },
@@ -2378,7 +2860,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/landing.js",
       "componentChunkName": "component---src-pages-landing-js",
       "context": {},
-      "updatedAt": 1519271511694,
+      "updatedAt": 1519284612069,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/landing.js",
@@ -2387,31 +2869,32 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "655468d52340501376c2c8e0742e0a42",
+        "contentDigest": "9c91bb24fd5c535c17bd69c39df82220",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
-    "plugins": {},
-    "PLUGINS_HASH": "02aa809540e6be5cb51041822cdc4bbf"
+    "plugins": {
+      "gatsby-source-contentful": {
+        "uconvssgdrn4": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybDuMKwYsOHbjgFH1PClDUSwq7DnW9KEcKkWwkWw7jCkDo9M8O0FsKaw7YYAAXCgsKzWHDDvMK0XMKrLy0tWnJXwq5KYn7CiEnCrCQ7PMOYekXDlMOJwpLCvQ"
+      }
+    },
+    "PLUGINS_HASH": "e4a7100e8706525b23a04f22faf1d4e6"
   },
   "componentDataDependencies": {
     "nodes": {
+      "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode >>> MarkdownRemark": [
+        null
+      ],
+      "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode >>> MarkdownRemark": [
+        null
+      ],
+      "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode >>> MarkdownRemark": [
+        null
+      ],
       "Site": [
-        "/hi-folks/",
-        "/my-second-post/",
-        "/hello-world/",
         "/"
-      ],
-      "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark": [
-        "/hi-folks/"
-      ],
-      "/Users/will/Projects/portfolio/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark": [
-        "/my-second-post/"
-      ],
-      "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark": [
-        "/hello-world/"
       ]
     },
     "connections": {
