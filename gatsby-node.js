@@ -3,8 +3,6 @@ const Promise = require("bluebird")
 const path = require("path")
 const select = require(`unist-util-select`)
 const fs = require(`fs-extra`)
-const fetch = require('node-fetch')
-const slash = require('slash')
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators
@@ -47,15 +45,10 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           reject(result.errors)
         }
 
-        // Create blog posts pages.
         _.each(result.data.allContentfulProject.edges, edge => {
-          console.log(edge)
           createPage({
-            path: `/projects/${edge.node.id}/`,
+            path: `/projects/${edge.node.name}/`,
             component: blogPost,
-            context: {
-              path: edge.node.id,
-            },
           })
         })
       }))

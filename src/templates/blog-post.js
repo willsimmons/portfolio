@@ -5,7 +5,7 @@ import get from 'lodash/get'
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.contentfulProduct
+    const project = this.props.data;
     console.log('contentful data on individual product site', post);
     const siteTitle = get(this.props, 'data.name')
 
@@ -22,17 +22,28 @@ class BlogPostTemplate extends React.Component {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
-    site {
-      siteMetadata {
-        title
-        author
-      }
-    }
-    ContentfulProjects: { path: { eq: $path } }) {
+  query projectByName($name: contentfulProjectNameQueryString_2) {
+    contentfulProject(name: $name) {
       name
       summary
-      description
+      description {
+        childMarkdownRemark {
+          html
+        }
+      }
+      repoURL
+      titleScreen {
+        file {
+          url
+          fileName
+        }
+      }
+      screens {
+        file {
+          url
+          fileName
+        }
+      }
     }
   }
-`
+`;

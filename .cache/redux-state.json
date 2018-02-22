@@ -8,7 +8,7 @@
       "component": "/Users/will/Projects/portfolio/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1519284612020,
+      "updatedAt": 1519315228265,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/will/Projects/portfolio/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "78dc947efcf5b4a4a632179455ed3e8b",
+        "contentDigest": "bc85b253664860ae24ef36d0b7f9f180",
         "owner": "internal-data-bridge"
       }
     },
@@ -1102,7 +1102,7 @@
       "resolve": "/Users/will/Projects/portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a1caf336c9410b63eee72188903fc437",
+      "version": "8aef146957d4caffd91f8941e2ae1319",
       "pluginOptions": {
         "plugins": []
       },
@@ -1196,7 +1196,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "07f01a1aa7bd34028163d54500405048",
+        "contentDigest": "780665f0e3353db500dc8fd337a45af0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1211,12 +1211,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-22T07:29:53.019Z",
+      "buildTime": "2018-02-22T16:00:13.835Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "37ca5c0d34b3a189a3767cd7cb5689fe",
+        "contentDigest": "9d122a5d0d98ee2979b7f68ae8b7e782",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1226,7 +1226,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a027f75e216cfc66598db7536fea7c69",
+        "contentDigest": "159d4705460f820730580b7561e7187a",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1236,10 +1236,10 @@
       "extension": "",
       "size": 160,
       "prettySize": "160 B",
-      "modifiedTime": "2018-02-21T00:44:00.805Z",
-      "accessTime": "2018-02-22T07:30:10.824Z",
-      "changeTime": "2018-02-21T00:44:00.805Z",
-      "birthTime": "2018-02-21T00:44:00.763Z",
+      "modifiedTime": "2018-02-22T07:44:23.316Z",
+      "accessTime": "2018-02-22T16:00:26.791Z",
+      "changeTime": "2018-02-22T07:44:23.316Z",
+      "birthTime": "2018-02-22T07:44:23.276Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src",
       "base": "posts",
@@ -1253,23 +1253,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967637,
+      "ino": 6772666,
       "blocks": 0,
-      "atimeMs": 1519284610824.0737,
-      "mtimeMs": 1519173840805.3074,
-      "ctimeMs": 1519173840805.3074,
-      "birthtimeMs": 1519173840763.2478,
-      "atime": "2018-02-22T07:30:10.824Z",
-      "mtime": "2018-02-21T00:44:00.805Z",
-      "ctime": "2018-02-21T00:44:00.805Z",
-      "birthtime": "2018-02-21T00:44:00.763Z"
+      "atimeMs": 1519315226790.633,
+      "mtimeMs": 1519285463315.896,
+      "ctimeMs": 1519285463315.896,
+      "birthtimeMs": 1519285463275.8914,
+      "atime": "2018-02-22T16:00:26.791Z",
+      "mtime": "2018-02-22T07:44:23.316Z",
+      "ctime": "2018-02-22T07:44:23.316Z",
+      "birthtime": "2018-02-22T07:44:23.276Z"
     },
     "/Users/will/Projects/portfolio/src/posts/hello-world absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/posts/hello-world absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b495f21d9b3d948afcf6722fa3b9e6be",
+        "contentDigest": "6c61b54489fbca45e84e092bec3409cd",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1279,10 +1279,10 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2018-02-21T00:44:00.764Z",
-      "accessTime": "2018-02-22T07:30:10.826Z",
-      "changeTime": "2018-02-21T00:44:00.764Z",
-      "birthTime": "2018-02-21T00:44:00.763Z",
+      "modifiedTime": "2018-02-22T07:44:23.278Z",
+      "accessTime": "2018-02-22T16:00:26.793Z",
+      "changeTime": "2018-02-22T07:44:23.278Z",
+      "birthTime": "2018-02-22T07:44:23.276Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/posts",
       "base": "hello-world",
@@ -1296,23 +1296,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967638,
+      "ino": 6772667,
       "blocks": 0,
-      "atimeMs": 1519284610826.143,
-      "mtimeMs": 1519173840764.155,
-      "ctimeMs": 1519173840764.155,
-      "birthtimeMs": 1519173840763.2952,
-      "atime": "2018-02-22T07:30:10.826Z",
-      "mtime": "2018-02-21T00:44:00.764Z",
-      "ctime": "2018-02-21T00:44:00.764Z",
-      "birthtime": "2018-02-21T00:44:00.763Z"
+      "atimeMs": 1519315226792.5452,
+      "mtimeMs": 1519285463277.9973,
+      "ctimeMs": 1519285463277.9973,
+      "birthtimeMs": 1519285463275.941,
+      "atime": "2018-02-22T16:00:26.793Z",
+      "mtime": "2018-02-22T07:44:23.278Z",
+      "ctime": "2018-02-22T07:44:23.278Z",
+      "birthtime": "2018-02-22T07:44:23.276Z"
     },
     "/Users/will/Projects/portfolio/src/posts/hi-folks absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/posts/hi-folks absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "07b970dd3663b7a5fabdfe411e99c080",
+        "contentDigest": "8af17cd83e2aad3c00ed36bed32af08a",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1322,10 +1322,10 @@
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
-      "modifiedTime": "2018-02-21T00:44:00.804Z",
-      "accessTime": "2018-02-22T07:30:10.826Z",
-      "changeTime": "2018-02-21T00:44:00.804Z",
-      "birthTime": "2018-02-21T00:44:00.804Z",
+      "modifiedTime": "2018-02-22T07:44:23.315Z",
+      "accessTime": "2018-02-22T16:00:26.793Z",
+      "changeTime": "2018-02-22T07:44:23.315Z",
+      "birthTime": "2018-02-22T07:44:23.314Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/posts",
       "base": "hi-folks",
@@ -1339,23 +1339,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967641,
+      "ino": 6772670,
       "blocks": 0,
-      "atimeMs": 1519284610826.1572,
-      "mtimeMs": 1519173840804.0515,
-      "ctimeMs": 1519173840804.0515,
-      "birthtimeMs": 1519173840803.983,
-      "atime": "2018-02-22T07:30:10.826Z",
-      "mtime": "2018-02-21T00:44:00.804Z",
-      "ctime": "2018-02-21T00:44:00.804Z",
-      "birthtime": "2018-02-21T00:44:00.804Z"
+      "atimeMs": 1519315226792.5615,
+      "mtimeMs": 1519285463314.596,
+      "ctimeMs": 1519285463314.596,
+      "birthtimeMs": 1519285463314.3887,
+      "atime": "2018-02-22T16:00:26.793Z",
+      "mtime": "2018-02-22T07:44:23.315Z",
+      "ctime": "2018-02-22T07:44:23.315Z",
+      "birthtime": "2018-02-22T07:44:23.314Z"
     },
     "/Users/will/Projects/portfolio/src/posts/my-second-post absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/posts/my-second-post absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f860e1cc709cefa3dbf702879f2b40cb",
+        "contentDigest": "a8ee608b08d09f81da0179adf36016ed",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1365,10 +1365,10 @@
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
-      "modifiedTime": "2018-02-21T00:44:00.805Z",
-      "accessTime": "2018-02-22T07:30:10.826Z",
-      "changeTime": "2018-02-21T00:44:00.805Z",
-      "birthTime": "2018-02-21T00:44:00.805Z",
+      "modifiedTime": "2018-02-22T07:44:23.316Z",
+      "accessTime": "2018-02-22T16:00:26.793Z",
+      "changeTime": "2018-02-22T07:44:23.316Z",
+      "birthTime": "2018-02-22T07:44:23.316Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/posts",
       "base": "my-second-post",
@@ -1382,16 +1382,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967643,
+      "ino": 6772672,
       "blocks": 0,
-      "atimeMs": 1519284610826.1187,
-      "mtimeMs": 1519173840805.3735,
-      "ctimeMs": 1519173840805.3735,
-      "birthtimeMs": 1519173840805.2715,
-      "atime": "2018-02-22T07:30:10.826Z",
-      "mtime": "2018-02-21T00:44:00.805Z",
-      "ctime": "2018-02-21T00:44:00.805Z",
-      "birthtime": "2018-02-21T00:44:00.805Z"
+      "atimeMs": 1519315226792.5527,
+      "mtimeMs": 1519285463316.0225,
+      "ctimeMs": 1519285463316.0225,
+      "birthtimeMs": 1519285463315.8892,
+      "atime": "2018-02-22T16:00:26.793Z",
+      "mtime": "2018-02-22T07:44:23.316Z",
+      "ctime": "2018-02-22T07:44:23.316Z",
+      "birthtime": "2018-02-22T07:44:23.316Z"
     },
     "/Users/will/Projects/portfolio/src/posts/my-second-post/index.md absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/posts/my-second-post/index.md absPath of file",
@@ -1411,10 +1411,10 @@
       "extension": "md",
       "size": 403,
       "prettySize": "403 B",
-      "modifiedTime": "2018-02-21T00:44:00.805Z",
-      "accessTime": "2018-02-22T07:25:03.521Z",
-      "changeTime": "2018-02-21T00:44:00.805Z",
-      "birthTime": "2018-02-21T00:44:00.805Z",
+      "modifiedTime": "2018-02-22T07:44:23.316Z",
+      "accessTime": "2018-02-22T07:44:48.717Z",
+      "changeTime": "2018-02-22T07:44:23.316Z",
+      "birthTime": "2018-02-22T07:44:23.316Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/posts/my-second-post",
       "base": "index.md",
@@ -1428,16 +1428,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967644,
+      "ino": 6772673,
       "blocks": 8,
-      "atimeMs": 1519284303520.5527,
-      "mtimeMs": 1519173840805.4297,
-      "ctimeMs": 1519173840805.4297,
-      "birthtimeMs": 1519173840805.3674,
-      "atime": "2018-02-22T07:25:03.521Z",
-      "mtime": "2018-02-21T00:44:00.805Z",
-      "ctime": "2018-02-21T00:44:00.805Z",
-      "birthtime": "2018-02-21T00:44:00.805Z"
+      "atimeMs": 1519285488716.8767,
+      "mtimeMs": 1519285463316.0767,
+      "ctimeMs": 1519285463316.0767,
+      "birthtimeMs": 1519285463316.0154,
+      "atime": "2018-02-22T07:44:48.717Z",
+      "mtime": "2018-02-22T07:44:23.316Z",
+      "ctime": "2018-02-22T07:44:23.316Z",
+      "birthtime": "2018-02-22T07:44:23.316Z"
     },
     "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md absPath of file",
@@ -1457,10 +1457,10 @@
       "extension": "md",
       "size": 866,
       "prettySize": "866 B",
-      "modifiedTime": "2018-02-21T00:44:00.763Z",
-      "accessTime": "2018-02-22T07:25:03.520Z",
-      "changeTime": "2018-02-21T00:44:00.763Z",
-      "birthTime": "2018-02-21T00:44:00.763Z",
+      "modifiedTime": "2018-02-22T07:44:23.276Z",
+      "accessTime": "2018-02-22T07:44:48.717Z",
+      "changeTime": "2018-02-22T07:44:23.276Z",
+      "birthTime": "2018-02-22T07:44:23.276Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/posts/hello-world",
       "base": "index.md",
@@ -1474,62 +1474,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967639,
+      "ino": 6772668,
       "blocks": 8,
-      "atimeMs": 1519284303520.3362,
-      "mtimeMs": 1519173840763.4375,
-      "ctimeMs": 1519173840763.4375,
-      "birthtimeMs": 1519173840763.3633,
-      "atime": "2018-02-22T07:25:03.520Z",
-      "mtime": "2018-02-21T00:44:00.763Z",
-      "ctime": "2018-02-21T00:44:00.763Z",
-      "birthtime": "2018-02-21T00:44:00.763Z"
-    },
-    "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md absPath of file",
-      "children": [
-        "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "02e333427bb8c7b38214ad21a4a27e26",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md",
-      "relativePath": "hi-folks/index.md",
-      "extension": "md",
-      "size": 5495,
-      "prettySize": "5.5 kB",
-      "modifiedTime": "2018-02-21T00:44:00.804Z",
-      "accessTime": "2018-02-22T07:25:03.520Z",
-      "changeTime": "2018-02-21T00:44:00.804Z",
-      "birthTime": "2018-02-21T00:44:00.804Z",
-      "root": "/",
-      "dir": "/Users/will/Projects/portfolio/src/posts/hi-folks",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "hi-folks",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 5967642,
-      "blocks": 16,
-      "atimeMs": 1519284303520.4595,
-      "mtimeMs": 1519173840804.1702,
-      "ctimeMs": 1519173840804.1702,
-      "birthtimeMs": 1519173840804.0447,
-      "atime": "2018-02-22T07:25:03.520Z",
-      "mtime": "2018-02-21T00:44:00.804Z",
-      "ctime": "2018-02-21T00:44:00.804Z",
-      "birthtime": "2018-02-21T00:44:00.804Z"
+      "atimeMs": 1519285488716.8564,
+      "mtimeMs": 1519285463276.1008,
+      "ctimeMs": 1519285463276.1008,
+      "birthtimeMs": 1519285463276.0544,
+      "atime": "2018-02-22T07:44:48.717Z",
+      "mtime": "2018-02-22T07:44:23.276Z",
+      "ctime": "2018-02-22T07:44:23.276Z",
+      "birthtime": "2018-02-22T07:44:23.276Z"
     },
     "/Users/will/Projects/portfolio/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/will/Projects/portfolio/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark",
@@ -1571,6 +1525,108 @@
       "excerpt": "",
       "fileAbsolutePath": "/Users/will/Projects/portfolio/src/posts/hello-world/index.md"
     },
+    "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg absPath of file",
+      "children": [
+        "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg",
+      "relativePath": "hello-world/salty_egg.jpg",
+      "extension": "jpg",
+      "size": 684322,
+      "prettySize": "684 kB",
+      "modifiedTime": "2018-02-22T07:44:23.278Z",
+      "accessTime": "2018-02-22T07:44:44.424Z",
+      "changeTime": "2018-02-22T07:44:23.278Z",
+      "birthTime": "2018-02-22T07:44:23.278Z",
+      "root": "/",
+      "dir": "/Users/will/Projects/portfolio/src/posts/hello-world",
+      "base": "salty_egg.jpg",
+      "ext": ".jpg",
+      "name": "salty_egg",
+      "relativeDirectory": "hello-world",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 6772669,
+      "blocks": 1344,
+      "atimeMs": 1519285484424.4778,
+      "mtimeMs": 1519285463278.1826,
+      "ctimeMs": 1519285463278.1826,
+      "birthtimeMs": 1519285463277.9902,
+      "atime": "2018-02-22T07:44:44.424Z",
+      "mtime": "2018-02-22T07:44:23.278Z",
+      "ctime": "2018-02-22T07:44:23.278Z",
+      "birthtime": "2018-02-22T07:44:23.278Z"
+    },
+    "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md absPath of file",
+      "children": [
+        "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "02e333427bb8c7b38214ad21a4a27e26",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md",
+      "relativePath": "hi-folks/index.md",
+      "extension": "md",
+      "size": 5495,
+      "prettySize": "5.5 kB",
+      "modifiedTime": "2018-02-22T07:44:23.315Z",
+      "accessTime": "2018-02-22T07:44:48.717Z",
+      "changeTime": "2018-02-22T07:44:23.315Z",
+      "birthTime": "2018-02-22T07:44:23.315Z",
+      "root": "/",
+      "dir": "/Users/will/Projects/portfolio/src/posts/hi-folks",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hi-folks",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 6772671,
+      "blocks": 16,
+      "atimeMs": 1519285488716.869,
+      "mtimeMs": 1519285463314.6614,
+      "ctimeMs": 1519285463314.6614,
+      "birthtimeMs": 1519285463314.5889,
+      "atime": "2018-02-22T07:44:48.717Z",
+      "mtime": "2018-02-22T07:44:23.315Z",
+      "ctime": "2018-02-22T07:44:23.315Z",
+      "birthtime": "2018-02-22T07:44:23.315Z"
+    },
     "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -1591,68 +1647,12 @@
       "excerpt": "",
       "fileAbsolutePath": "/Users/will/Projects/portfolio/src/posts/hi-folks/index.md"
     },
-    "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg absPath of file",
-      "children": [
-        "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg",
-      "relativePath": "hello-world/salty_egg.jpg",
-      "extension": "jpg",
-      "size": 684322,
-      "prettySize": "684 kB",
-      "modifiedTime": "2018-02-21T00:44:00.766Z",
-      "accessTime": "2018-02-22T07:25:03.520Z",
-      "changeTime": "2018-02-21T00:44:00.766Z",
-      "birthTime": "2018-02-21T00:44:00.764Z",
-      "root": "/",
-      "dir": "/Users/will/Projects/portfolio/src/posts/hello-world",
-      "base": "salty_egg.jpg",
-      "ext": ".jpg",
-      "name": "salty_egg",
-      "relativeDirectory": "hello-world",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 5967640,
-      "blocks": 1344,
-      "atimeMs": 1519284303520.3665,
-      "mtimeMs": 1519173840766.1277,
-      "ctimeMs": 1519173840766.1277,
-      "birthtimeMs": 1519173840764.1475,
-      "atime": "2018-02-22T07:25:03.520Z",
-      "mtime": "2018-02-21T00:44:00.766Z",
-      "ctime": "2018-02-21T00:44:00.766Z",
-      "birthtime": "2018-02-21T00:44:00.764Z"
-    },
-    "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/posts/hello-world/salty_egg.jpg absPath of file",
-      "internal": {
-        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "/Users/will/Projects/portfolio/src/assets/images absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/assets/images absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "129fe436e20ce2bfcc9e057c4d5e62f8",
+        "contentDigest": "83ebee8808bc071743babc99d4268327",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1662,10 +1662,10 @@
       "extension": "",
       "size": 448,
       "prettySize": "448 B",
-      "modifiedTime": "2018-02-21T00:44:00.741Z",
-      "accessTime": "2018-02-22T07:30:10.875Z",
-      "changeTime": "2018-02-21T00:44:00.741Z",
-      "birthTime": "2018-02-21T00:44:00.548Z",
+      "modifiedTime": "2018-02-22T07:44:23.252Z",
+      "accessTime": "2018-02-22T16:00:26.842Z",
+      "changeTime": "2018-02-22T07:44:23.252Z",
+      "birthTime": "2018-02-22T07:44:23.080Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/assets",
       "base": "images",
@@ -1679,16 +1679,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967576,
+      "ino": 6772605,
       "blocks": 0,
-      "atimeMs": 1519284610874.6072,
-      "mtimeMs": 1519173840740.5083,
-      "ctimeMs": 1519173840740.5083,
-      "birthtimeMs": 1519173840547.9138,
-      "atime": "2018-02-22T07:30:10.875Z",
-      "mtime": "2018-02-21T00:44:00.741Z",
-      "ctime": "2018-02-21T00:44:00.741Z",
-      "birthtime": "2018-02-21T00:44:00.548Z"
+      "atimeMs": 1519315226841.5977,
+      "mtimeMs": 1519285463252.3337,
+      "ctimeMs": 1519285463252.3337,
+      "birthtimeMs": 1519285463080.4417,
+      "atime": "2018-02-22T16:00:26.842Z",
+      "mtime": "2018-02-22T07:44:23.252Z",
+      "ctime": "2018-02-22T07:44:23.252Z",
+      "birthtime": "2018-02-22T07:44:23.080Z"
     },
     "/Users/will/Projects/portfolio/src/assets/images/pic02.jpg absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic02.jpg absPath of file",
@@ -1708,10 +1708,10 @@
       "extension": "jpg",
       "size": 31758,
       "prettySize": "31.8 kB",
-      "modifiedTime": "2018-02-21T00:44:00.622Z",
-      "accessTime": "2018-02-22T07:25:13.148Z",
-      "changeTime": "2018-02-21T00:44:00.622Z",
-      "birthTime": "2018-02-21T00:44:00.622Z",
+      "modifiedTime": "2018-02-22T07:44:23.133Z",
+      "accessTime": "2018-02-22T07:44:48.717Z",
+      "changeTime": "2018-02-22T07:44:23.133Z",
+      "birthTime": "2018-02-22T07:44:23.133Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/assets/images",
       "base": "pic02.jpg",
@@ -1725,26 +1725,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967579,
+      "ino": 6772608,
       "blocks": 64,
-      "atimeMs": 1519284313148.1528,
-      "mtimeMs": 1519173840622.3494,
-      "ctimeMs": 1519173840622.3494,
-      "birthtimeMs": 1519173840622.036,
-      "atime": "2018-02-22T07:25:13.148Z",
-      "mtime": "2018-02-21T00:44:00.622Z",
-      "ctime": "2018-02-21T00:44:00.622Z",
-      "birthtime": "2018-02-21T00:44:00.622Z"
-    },
-    "/Users/will/Projects/portfolio/src/assets/images/pic02.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic02.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic02.jpg absPath of file",
-      "internal": {
-        "contentDigest": "40a772a08cf02ce5a485b7290fa9d8dc",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
+      "atimeMs": 1519285488716.5984,
+      "mtimeMs": 1519285463133.3223,
+      "ctimeMs": 1519285463133.3223,
+      "birthtimeMs": 1519285463133.2417,
+      "atime": "2018-02-22T07:44:48.717Z",
+      "mtime": "2018-02-22T07:44:23.133Z",
+      "ctime": "2018-02-22T07:44:23.133Z",
+      "birthtime": "2018-02-22T07:44:23.133Z"
     },
     "/Users/will/Projects/portfolio/src/assets/images/pic01.jpg absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic01.jpg absPath of file",
@@ -1764,10 +1754,10 @@
       "extension": "jpg",
       "size": 107101,
       "prettySize": "107 kB",
-      "modifiedTime": "2018-02-21T00:44:00.616Z",
-      "accessTime": "2018-02-22T07:25:13.148Z",
-      "changeTime": "2018-02-21T00:44:00.616Z",
-      "birthTime": "2018-02-21T00:44:00.615Z",
+      "modifiedTime": "2018-02-22T07:44:23.130Z",
+      "accessTime": "2018-02-22T07:44:44.415Z",
+      "changeTime": "2018-02-22T07:44:23.130Z",
+      "birthTime": "2018-02-22T07:44:23.130Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/assets/images",
       "base": "pic01.jpg",
@@ -1781,16 +1771,72 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967578,
+      "ino": 6772607,
       "blocks": 216,
-      "atimeMs": 1519284313148.1414,
-      "mtimeMs": 1519173840615.9612,
-      "ctimeMs": 1519173840615.9612,
-      "birthtimeMs": 1519173840615.2188,
-      "atime": "2018-02-22T07:25:13.148Z",
-      "mtime": "2018-02-21T00:44:00.616Z",
-      "ctime": "2018-02-21T00:44:00.616Z",
-      "birthtime": "2018-02-21T00:44:00.615Z"
+      "atimeMs": 1519285484414.9329,
+      "mtimeMs": 1519285463129.943,
+      "ctimeMs": 1519285463129.943,
+      "birthtimeMs": 1519285463129.8528,
+      "atime": "2018-02-22T07:44:44.415Z",
+      "mtime": "2018-02-22T07:44:23.130Z",
+      "ctime": "2018-02-22T07:44:23.130Z",
+      "birthtime": "2018-02-22T07:44:23.130Z"
+    },
+    "/Users/will/Projects/portfolio/src/assets/images/pic02.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic02.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic02.jpg absPath of file",
+      "internal": {
+        "contentDigest": "40a772a08cf02ce5a485b7290fa9d8dc",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file",
+      "children": [
+        "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d82e61241e70622b517cab61e99a61ee",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg",
+      "relativePath": "pic05.jpg",
+      "extension": "jpg",
+      "size": 83499,
+      "prettySize": "83.5 kB",
+      "modifiedTime": "2018-02-22T07:44:23.162Z",
+      "accessTime": "2018-02-22T07:44:44.417Z",
+      "changeTime": "2018-02-22T07:44:23.162Z",
+      "birthTime": "2018-02-22T07:44:23.162Z",
+      "root": "/",
+      "dir": "/Users/will/Projects/portfolio/src/assets/images",
+      "base": "pic05.jpg",
+      "ext": ".jpg",
+      "name": "pic05",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 6772611,
+      "blocks": 168,
+      "atimeMs": 1519285484417.171,
+      "mtimeMs": 1519285463162.2834,
+      "ctimeMs": 1519285463162.2834,
+      "birthtimeMs": 1519285463162.1936,
+      "atime": "2018-02-22T07:44:44.417Z",
+      "mtime": "2018-02-22T07:44:23.162Z",
+      "ctime": "2018-02-22T07:44:23.162Z",
+      "birthtime": "2018-02-22T07:44:23.162Z"
     },
     "/Users/will/Projects/portfolio/src/assets/images/pic04.jpg absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic04.jpg absPath of file",
@@ -1810,10 +1856,10 @@
       "extension": "jpg",
       "size": 77100,
       "prettySize": "77.1 kB",
-      "modifiedTime": "2018-02-21T00:44:00.647Z",
-      "accessTime": "2018-02-22T07:25:13.148Z",
-      "changeTime": "2018-02-21T00:44:00.647Z",
-      "birthTime": "2018-02-21T00:44:00.646Z",
+      "modifiedTime": "2018-02-22T07:44:23.156Z",
+      "accessTime": "2018-02-22T07:44:44.417Z",
+      "changeTime": "2018-02-22T07:44:23.156Z",
+      "birthTime": "2018-02-22T07:44:23.156Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/assets/images",
       "base": "pic04.jpg",
@@ -1827,16 +1873,62 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967581,
+      "ino": 6772610,
       "blocks": 152,
-      "atimeMs": 1519284313148.1704,
-      "mtimeMs": 1519173840646.5222,
-      "ctimeMs": 1519173840646.5222,
-      "birthtimeMs": 1519173840646.048,
-      "atime": "2018-02-22T07:25:13.148Z",
-      "mtime": "2018-02-21T00:44:00.647Z",
-      "ctime": "2018-02-21T00:44:00.647Z",
-      "birthtime": "2018-02-21T00:44:00.646Z"
+      "atimeMs": 1519285484416.7761,
+      "mtimeMs": 1519285463156.0693,
+      "ctimeMs": 1519285463156.0693,
+      "birthtimeMs": 1519285463155.9907,
+      "atime": "2018-02-22T07:44:44.417Z",
+      "mtime": "2018-02-22T07:44:23.156Z",
+      "ctime": "2018-02-22T07:44:23.156Z",
+      "birthtime": "2018-02-22T07:44:23.156Z"
+    },
+    "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file",
+      "children": [
+        "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "05653d205a36da91b3161519999f69c1",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg",
+      "relativePath": "pic06.jpg",
+      "extension": "jpg",
+      "size": 115307,
+      "prettySize": "115 kB",
+      "modifiedTime": "2018-02-22T07:44:23.167Z",
+      "accessTime": "2018-02-22T07:44:44.418Z",
+      "changeTime": "2018-02-22T07:44:23.167Z",
+      "birthTime": "2018-02-22T07:44:23.167Z",
+      "root": "/",
+      "dir": "/Users/will/Projects/portfolio/src/assets/images",
+      "base": "pic06.jpg",
+      "ext": ".jpg",
+      "name": "pic06",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 6772612,
+      "blocks": 232,
+      "atimeMs": 1519285484417.5967,
+      "mtimeMs": 1519285463166.8196,
+      "ctimeMs": 1519285463166.8196,
+      "birthtimeMs": 1519285463166.6904,
+      "atime": "2018-02-22T07:44:44.418Z",
+      "mtime": "2018-02-22T07:44:23.167Z",
+      "ctime": "2018-02-22T07:44:23.167Z",
+      "birthtime": "2018-02-22T07:44:23.167Z"
     },
     "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file",
@@ -1856,10 +1948,10 @@
       "extension": "jpg",
       "size": 126687,
       "prettySize": "127 kB",
-      "modifiedTime": "2018-02-21T00:44:00.666Z",
-      "accessTime": "2018-02-22T07:25:03.518Z",
-      "changeTime": "2018-02-21T00:44:00.666Z",
-      "birthTime": "2018-02-21T00:44:00.665Z",
+      "modifiedTime": "2018-02-22T07:44:23.177Z",
+      "accessTime": "2018-02-22T07:44:44.418Z",
+      "changeTime": "2018-02-22T07:44:23.177Z",
+      "birthTime": "2018-02-22T07:44:23.177Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/assets/images",
       "base": "pic07.jpg",
@@ -1873,16 +1965,62 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967584,
+      "ino": 6772613,
       "blocks": 248,
-      "atimeMs": 1519284303517.9148,
-      "mtimeMs": 1519173840666.2576,
-      "ctimeMs": 1519173840666.2576,
-      "birthtimeMs": 1519173840665.2295,
-      "atime": "2018-02-22T07:25:03.518Z",
-      "mtime": "2018-02-21T00:44:00.666Z",
-      "ctime": "2018-02-21T00:44:00.666Z",
-      "birthtime": "2018-02-21T00:44:00.665Z"
+      "atimeMs": 1519285484418.1702,
+      "mtimeMs": 1519285463177.3135,
+      "ctimeMs": 1519285463177.3135,
+      "birthtimeMs": 1519285463177.2012,
+      "atime": "2018-02-22T07:44:44.418Z",
+      "mtime": "2018-02-22T07:44:23.177Z",
+      "ctime": "2018-02-22T07:44:23.177Z",
+      "birthtime": "2018-02-22T07:44:23.177Z"
+    },
+    "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file",
+      "children": [
+        "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4c3ce95d53bcf4f4e5c3079df9c3e543",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg",
+      "relativePath": "pic08.jpg",
+      "extension": "jpg",
+      "size": 119559,
+      "prettySize": "120 kB",
+      "modifiedTime": "2018-02-22T07:44:23.186Z",
+      "accessTime": "2018-02-22T07:44:44.419Z",
+      "changeTime": "2018-02-22T07:44:23.186Z",
+      "birthTime": "2018-02-22T07:44:23.186Z",
+      "root": "/",
+      "dir": "/Users/will/Projects/portfolio/src/assets/images",
+      "base": "pic08.jpg",
+      "ext": ".jpg",
+      "name": "pic08",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 6772614,
+      "blocks": 240,
+      "atimeMs": 1519285484418.972,
+      "mtimeMs": 1519285463185.752,
+      "ctimeMs": 1519285463185.752,
+      "birthtimeMs": 1519285463185.6453,
+      "atime": "2018-02-22T07:44:44.419Z",
+      "mtime": "2018-02-22T07:44:23.186Z",
+      "ctime": "2018-02-22T07:44:23.186Z",
+      "birthtime": "2018-02-22T07:44:23.186Z"
     },
     "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file",
@@ -1902,10 +2040,10 @@
       "extension": "jpg",
       "size": 85946,
       "prettySize": "85.9 kB",
-      "modifiedTime": "2018-02-21T00:44:00.720Z",
-      "accessTime": "2018-02-22T07:25:13.148Z",
-      "changeTime": "2018-02-21T00:44:00.720Z",
-      "birthTime": "2018-02-21T00:44:00.720Z",
+      "modifiedTime": "2018-02-22T07:44:23.233Z",
+      "accessTime": "2018-02-22T07:44:44.420Z",
+      "changeTime": "2018-02-22T07:44:23.233Z",
+      "birthTime": "2018-02-22T07:44:23.233Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/assets/images",
       "base": "pic09.jpg",
@@ -1919,62 +2057,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967588,
+      "ino": 6772615,
       "blocks": 168,
-      "atimeMs": 1519284313148.2178,
-      "mtimeMs": 1519173840720.468,
-      "ctimeMs": 1519173840720.468,
-      "birthtimeMs": 1519173840720.0454,
-      "atime": "2018-02-22T07:25:13.148Z",
-      "mtime": "2018-02-21T00:44:00.720Z",
-      "ctime": "2018-02-21T00:44:00.720Z",
-      "birthtime": "2018-02-21T00:44:00.720Z"
-    },
-    "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file",
-      "children": [
-        "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "fc2217a3259dbe4bf90380771114f39c",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg",
-      "relativePath": "pic10.jpg",
-      "extension": "jpg",
-      "size": 130687,
-      "prettySize": "131 kB",
-      "modifiedTime": "2018-02-21T00:44:00.727Z",
-      "accessTime": "2018-02-22T07:25:13.148Z",
-      "changeTime": "2018-02-21T00:44:00.727Z",
-      "birthTime": "2018-02-21T00:44:00.727Z",
-      "root": "/",
-      "dir": "/Users/will/Projects/portfolio/src/assets/images",
-      "base": "pic10.jpg",
-      "ext": ".jpg",
-      "name": "pic10",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 5967589,
-      "blocks": 256,
-      "atimeMs": 1519284313148.2341,
-      "mtimeMs": 1519173840727.4182,
-      "ctimeMs": 1519173840727.4182,
-      "birthtimeMs": 1519173840726.9226,
-      "atime": "2018-02-22T07:25:13.148Z",
-      "mtime": "2018-02-21T00:44:00.727Z",
-      "ctime": "2018-02-21T00:44:00.727Z",
-      "birthtime": "2018-02-21T00:44:00.727Z"
+      "atimeMs": 1519285484419.6736,
+      "mtimeMs": 1519285463233.2832,
+      "ctimeMs": 1519285463233.2832,
+      "birthtimeMs": 1519285463233.1445,
+      "atime": "2018-02-22T07:44:44.420Z",
+      "mtime": "2018-02-22T07:44:23.233Z",
+      "ctime": "2018-02-22T07:44:23.233Z",
+      "birthtime": "2018-02-22T07:44:23.233Z"
     },
     "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic11.jpg absPath of file",
@@ -1994,10 +2086,10 @@
       "extension": "jpg",
       "size": 98842,
       "prettySize": "98.8 kB",
-      "modifiedTime": "2018-02-21T00:44:00.741Z",
-      "accessTime": "2018-02-22T07:25:13.148Z",
-      "changeTime": "2018-02-21T00:44:00.741Z",
-      "birthTime": "2018-02-21T00:44:00.741Z",
+      "modifiedTime": "2018-02-22T07:44:23.252Z",
+      "accessTime": "2018-02-22T07:44:44.421Z",
+      "changeTime": "2018-02-22T07:44:23.252Z",
+      "birthTime": "2018-02-22T07:44:23.252Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/assets/images",
       "base": "pic11.jpg",
@@ -2011,16 +2103,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967590,
+      "ino": 6772619,
       "blocks": 200,
-      "atimeMs": 1519284313148.2458,
-      "mtimeMs": 1519173840740.9534,
-      "ctimeMs": 1519173840740.9534,
-      "birthtimeMs": 1519173840740.5005,
-      "atime": "2018-02-22T07:25:13.148Z",
-      "mtime": "2018-02-21T00:44:00.741Z",
-      "ctime": "2018-02-21T00:44:00.741Z",
-      "birthtime": "2018-02-21T00:44:00.741Z"
+      "atimeMs": 1519285484420.7651,
+      "mtimeMs": 1519285463252.4434,
+      "ctimeMs": 1519285463252.4434,
+      "birthtimeMs": 1519285463252.3235,
+      "atime": "2018-02-22T07:44:44.421Z",
+      "mtime": "2018-02-22T07:44:23.252Z",
+      "ctime": "2018-02-22T07:44:23.252Z",
+      "birthtime": "2018-02-22T07:44:23.252Z"
     },
     "/Users/will/Projects/portfolio/src/assets/images/pic01.jpg absPath of file >> ImageSharp": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic01.jpg absPath of file >> ImageSharp",
@@ -2028,6 +2120,16 @@
       "parent": "/Users/will/Projects/portfolio/src/assets/images/pic01.jpg absPath of file",
       "internal": {
         "contentDigest": "f7c500d0c7ce97f4fa08f6f797eaf142",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file",
+      "internal": {
+        "contentDigest": "d82e61241e70622b517cab61e99a61ee",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -2042,6 +2144,16 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file",
+      "internal": {
+        "contentDigest": "05653d205a36da91b3161519999f69c1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp",
       "children": [],
@@ -2052,22 +2164,22 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file",
+      "internal": {
+        "contentDigest": "4c3ce95d53bcf4f4e5c3079df9c3e543",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file >> ImageSharp": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file >> ImageSharp",
       "children": [],
       "parent": "/Users/will/Projects/portfolio/src/assets/images/pic09.jpg absPath of file",
       "internal": {
         "contentDigest": "d59e4b49832baeb9c62a7a9d6c070f8c",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file",
-      "internal": {
-        "contentDigest": "fc2217a3259dbe4bf90380771114f39c",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -2100,10 +2212,10 @@
       "extension": "jpg",
       "size": 222587,
       "prettySize": "223 kB",
-      "modifiedTime": "2018-02-21T00:44:00.625Z",
-      "accessTime": "2018-02-22T07:25:13.148Z",
-      "changeTime": "2018-02-21T00:44:00.625Z",
-      "birthTime": "2018-02-21T00:44:00.624Z",
+      "modifiedTime": "2018-02-22T07:44:23.136Z",
+      "accessTime": "2018-02-22T07:44:44.416Z",
+      "changeTime": "2018-02-22T07:44:23.136Z",
+      "birthTime": "2018-02-22T07:44:23.135Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/assets/images",
       "base": "pic03.jpg",
@@ -2117,16 +2229,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967580,
+      "ino": 6772609,
       "blocks": 440,
-      "atimeMs": 1519284313148.16,
-      "mtimeMs": 1519173840625.2478,
-      "ctimeMs": 1519173840625.2478,
-      "birthtimeMs": 1519173840624.3325,
-      "atime": "2018-02-22T07:25:13.148Z",
-      "mtime": "2018-02-21T00:44:00.625Z",
-      "ctime": "2018-02-21T00:44:00.625Z",
-      "birthtime": "2018-02-21T00:44:00.624Z"
+      "atimeMs": 1519285484415.7126,
+      "mtimeMs": 1519285463135.5466,
+      "ctimeMs": 1519285463135.5466,
+      "birthtimeMs": 1519285463135.4011,
+      "atime": "2018-02-22T07:44:44.416Z",
+      "mtime": "2018-02-22T07:44:23.136Z",
+      "ctime": "2018-02-22T07:44:23.136Z",
+      "birthtime": "2018-02-22T07:44:23.135Z"
     },
     "/Users/will/Projects/portfolio/src/assets/images/banner.jpg absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/banner.jpg absPath of file",
@@ -2146,10 +2258,10 @@
       "extension": "jpg",
       "size": 331144,
       "prettySize": "331 kB",
-      "modifiedTime": "2018-02-21T00:44:00.549Z",
-      "accessTime": "2018-02-22T07:25:13.148Z",
-      "changeTime": "2018-02-21T00:44:00.549Z",
-      "birthTime": "2018-02-21T00:44:00.548Z",
+      "modifiedTime": "2018-02-22T07:44:23.081Z",
+      "accessTime": "2018-02-22T07:44:44.413Z",
+      "changeTime": "2018-02-22T07:44:23.081Z",
+      "birthTime": "2018-02-22T07:44:23.081Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/assets/images",
       "base": "banner.jpg",
@@ -2163,16 +2275,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967577,
+      "ino": 6772606,
       "blocks": 648,
-      "atimeMs": 1519284313148.1357,
-      "mtimeMs": 1519173840549.4817,
-      "ctimeMs": 1519173840549.4817,
-      "birthtimeMs": 1519173840548.0107,
-      "atime": "2018-02-22T07:25:13.148Z",
-      "mtime": "2018-02-21T00:44:00.549Z",
-      "ctime": "2018-02-21T00:44:00.549Z",
-      "birthtime": "2018-02-21T00:44:00.548Z"
+      "atimeMs": 1519285484413.2148,
+      "mtimeMs": 1519285463081.1003,
+      "ctimeMs": 1519285463081.1003,
+      "birthtimeMs": 1519285463080.9705,
+      "atime": "2018-02-22T07:44:44.413Z",
+      "mtime": "2018-02-22T07:44:23.081Z",
+      "ctime": "2018-02-22T07:44:23.081Z",
+      "birthtime": "2018-02-22T07:44:23.081Z"
     },
     "/Users/will/Projects/portfolio/src/assets/images/pic03.jpg absPath of file >> ImageSharp": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic03.jpg absPath of file >> ImageSharp",
@@ -2194,33 +2306,33 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file",
+    "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file",
       "children": [
-        "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp"
+        "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d82e61241e70622b517cab61e99a61ee",
+        "contentDigest": "fc2217a3259dbe4bf90380771114f39c",
         "mediaType": "image/jpeg",
         "type": "File",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg",
-      "relativePath": "pic05.jpg",
+      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg",
+      "relativePath": "pic10.jpg",
       "extension": "jpg",
-      "size": 83499,
-      "prettySize": "83.5 kB",
-      "modifiedTime": "2018-02-21T00:44:00.652Z",
-      "accessTime": "2018-02-22T07:25:13.148Z",
-      "changeTime": "2018-02-21T00:44:00.652Z",
-      "birthTime": "2018-02-21T00:44:00.652Z",
+      "size": 130687,
+      "prettySize": "131 kB",
+      "modifiedTime": "2018-02-22T07:44:23.239Z",
+      "accessTime": "2018-02-22T07:44:44.420Z",
+      "changeTime": "2018-02-22T07:44:23.239Z",
+      "birthTime": "2018-02-22T07:44:23.239Z",
       "root": "/",
       "dir": "/Users/will/Projects/portfolio/src/assets/images",
-      "base": "pic05.jpg",
+      "base": "pic10.jpg",
       "ext": ".jpg",
-      "name": "pic05",
+      "name": "pic10",
       "relativeDirectory": "",
       "dev": 16777221,
       "mode": 33188,
@@ -2229,135 +2341,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 5967582,
-      "blocks": 168,
-      "atimeMs": 1519284313148.1772,
-      "mtimeMs": 1519173840652.0593,
-      "ctimeMs": 1519173840652.0593,
-      "birthtimeMs": 1519173840651.7078,
-      "atime": "2018-02-22T07:25:13.148Z",
-      "mtime": "2018-02-21T00:44:00.652Z",
-      "ctime": "2018-02-21T00:44:00.652Z",
-      "birthtime": "2018-02-21T00:44:00.652Z"
+      "ino": 6772616,
+      "blocks": 256,
+      "atimeMs": 1519285484420.125,
+      "mtimeMs": 1519285463239.164,
+      "ctimeMs": 1519285463239.164,
+      "birthtimeMs": 1519285463239.077,
+      "atime": "2018-02-22T07:44:44.420Z",
+      "mtime": "2018-02-22T07:44:23.239Z",
+      "ctime": "2018-02-22T07:44:23.239Z",
+      "birthtime": "2018-02-22T07:44:23.239Z"
     },
-    "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp",
+    "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp",
       "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic05.jpg absPath of file",
+      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic10.jpg absPath of file",
       "internal": {
-        "contentDigest": "d82e61241e70622b517cab61e99a61ee",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file",
-      "children": [
-        "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "05653d205a36da91b3161519999f69c1",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg",
-      "relativePath": "pic06.jpg",
-      "extension": "jpg",
-      "size": 115307,
-      "prettySize": "115 kB",
-      "modifiedTime": "2018-02-21T00:44:00.655Z",
-      "accessTime": "2018-02-22T07:25:13.148Z",
-      "changeTime": "2018-02-21T00:44:00.655Z",
-      "birthTime": "2018-02-21T00:44:00.654Z",
-      "root": "/",
-      "dir": "/Users/will/Projects/portfolio/src/assets/images",
-      "base": "pic06.jpg",
-      "ext": ".jpg",
-      "name": "pic06",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 5967583,
-      "blocks": 232,
-      "atimeMs": 1519284313148.185,
-      "mtimeMs": 1519173840654.923,
-      "ctimeMs": 1519173840654.923,
-      "birthtimeMs": 1519173840654.3855,
-      "atime": "2018-02-22T07:25:13.148Z",
-      "mtime": "2018-02-21T00:44:00.655Z",
-      "ctime": "2018-02-21T00:44:00.655Z",
-      "birthtime": "2018-02-21T00:44:00.654Z"
-    },
-    "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic06.jpg absPath of file",
-      "internal": {
-        "contentDigest": "05653d205a36da91b3161519999f69c1",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file",
-      "children": [
-        "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "4c3ce95d53bcf4f4e5c3079df9c3e543",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg",
-      "relativePath": "pic08.jpg",
-      "extension": "jpg",
-      "size": 119559,
-      "prettySize": "120 kB",
-      "modifiedTime": "2018-02-21T00:44:00.676Z",
-      "accessTime": "2018-02-22T07:25:13.148Z",
-      "changeTime": "2018-02-21T00:44:00.676Z",
-      "birthTime": "2018-02-21T00:44:00.675Z",
-      "root": "/",
-      "dir": "/Users/will/Projects/portfolio/src/assets/images",
-      "base": "pic08.jpg",
-      "ext": ".jpg",
-      "name": "pic08",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 5967585,
-      "blocks": 240,
-      "atimeMs": 1519284313148.2087,
-      "mtimeMs": 1519173840675.853,
-      "ctimeMs": 1519173840675.853,
-      "birthtimeMs": 1519173840675.2483,
-      "atime": "2018-02-22T07:25:13.148Z",
-      "mtime": "2018-02-21T00:44:00.676Z",
-      "ctime": "2018-02-21T00:44:00.676Z",
-      "birthtime": "2018-02-21T00:44:00.675Z"
-    },
-    "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file",
-      "internal": {
-        "contentDigest": "4c3ce95d53bcf4f4e5c3079df9c3e543",
+        "contentDigest": "fc2217a3259dbe4bf90380771114f39c",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -2491,6 +2491,31 @@
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
+    },
+    "c1K1QXcO4C4MGKGq8e0egk2": {
+      "id": "c1K1QXcO4C4MGKGq8e0egk2",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.contentful.com/uconvssgdrn4/1K1QXcO4C4MGKGq8e0egk2/21ae301e580891e71363d4fe5167d9c5/Screen_Shot_2018-02-21_at_11.37.39_PM.png",
+        "details": {
+          "size": 1333165,
+          "image": {
+            "width": 2230,
+            "height": 1430
+          }
+        },
+        "fileName": "Screen Shot 2018-02-21 at 11.37.39 PM.png",
+        "contentType": "image/png"
+      },
+      "title": "tendr on Angel List",
+      "description": "project page on angel list",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "15da96e0bf503de5c86450bea93ca3e6",
+        "owner": "gatsby-source-contentful"
+      }
     },
     "c25GMm0vLvCqy2iEioEK8cs": {
       "id": "c25GMm0vLvCqy2iEioEK8cs",
@@ -2768,24 +2793,66 @@
       },
       "excerpt": ""
     },
-    "SitePage /projects/undefined/": {
+    "SitePage /projects/Tendr/": {
       "layout": "index",
-      "jsonName": "projects-undefined.json",
-      "internalComponentName": "ComponentProjectsUndefined",
-      "path": "/projects/undefined/",
+      "jsonName": "projects-tendr.json",
+      "internalComponentName": "ComponentProjectsTendr",
+      "path": "/projects/Tendr/",
       "component": "/Users/will/Projects/portfolio/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "context": {},
-      "updatedAt": 1519284612011,
+      "updatedAt": 1519315228256,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/will/Projects/portfolio/src/templates/blog-post.js",
-      "id": "SitePage /projects/undefined/",
+      "id": "SitePage /projects/Tendr/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "447505ec0c9d8419792d9d02b8ce5465",
+        "contentDigest": "dea32495d8019c130ca41eb14922d83d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/GreenCast/": {
+      "layout": "index",
+      "jsonName": "projects-green-cast.json",
+      "internalComponentName": "ComponentProjectsGreenCast",
+      "path": "/projects/GreenCast/",
+      "component": "/Users/will/Projects/portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "updatedAt": 1519315228257,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/will/Projects/portfolio/src/templates/blog-post.js",
+      "id": "SitePage /projects/GreenCast/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "83baa6adf5cb896868055ad72d5741c7",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/Traveller/": {
+      "layout": "index",
+      "jsonName": "projects-traveller.json",
+      "internalComponentName": "ComponentProjectsTraveller",
+      "path": "/projects/Traveller/",
+      "component": "/Users/will/Projects/portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "updatedAt": 1519315228258,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/will/Projects/portfolio/src/templates/blog-post.js",
+      "id": "SitePage /projects/Traveller/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "184ec0b0e39c866db28e30636ff43a0d",
         "owner": "internal-data-bridge"
       }
     },
@@ -2797,7 +2864,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/elements.js",
       "componentChunkName": "component---src-pages-elements-js",
       "context": {},
-      "updatedAt": 1519284612025,
+      "updatedAt": 1519315228270,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/elements.js",
@@ -2806,7 +2873,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8ccfccb71a26c38d6ffc595b4284e135",
+        "contentDigest": "2a2353215c4da910f3799d84c2f87ae4",
         "owner": "internal-data-bridge"
       }
     },
@@ -2818,7 +2885,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/generic.js",
       "componentChunkName": "component---src-pages-generic-js",
       "context": {},
-      "updatedAt": 1519284612026,
+      "updatedAt": 1519315228271,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/generic.js",
@@ -2827,7 +2894,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cbb46167fa9eea6035bcc036b00376e6",
+        "contentDigest": "6867f41b833f7d6392c9eb20fa219ea6",
         "owner": "internal-data-bridge"
       }
     },
@@ -2839,7 +2906,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1519284612027,
+      "updatedAt": 1519315228271,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/index.js",
@@ -2848,7 +2915,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "164501caff54fd96617913e5a22c8335",
+        "contentDigest": "48cb6e95b879ea0b708748372f690b4f",
         "owner": "internal-data-bridge"
       }
     },
@@ -2860,7 +2927,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/landing.js",
       "componentChunkName": "component---src-pages-landing-js",
       "context": {},
-      "updatedAt": 1519284612069,
+      "updatedAt": 1519315228272,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/landing.js",
@@ -2869,7 +2936,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9c91bb24fd5c535c17bd69c39df82220",
+        "contentDigest": "a47e2b06c6ab57813198a35dff13ebfd",
         "owner": "internal-data-bridge"
       }
     }
@@ -2877,24 +2944,78 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "uconvssgdrn4": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybDuMKwYsOHbjgFH1PClDUSwq7DnW9KEcKkWwkWw7jCkDo9M8O0FsKaw7YYAAXCgsKzWHDDvMK0XMKrLy0tWnJXwq5KYn7CiEnCrCQ7PMOYekXDlMOJwpLCvQ"
+        "uconvssgdrn4": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyYqw4s6UlXCkTTDt0jDlsOLwr5Qw6LCjcOtUMKhw57Ds3vDqQ18alDCpCHCiUXDukHDvMKSw7hbUxzCqcOiwpV_woHDumhPSFFCwqoYw63CumNqw4YVJEd9woPDgsKpGw"
       }
     },
-    "PLUGINS_HASH": "e4a7100e8706525b23a04f22faf1d4e6"
+    "PLUGINS_HASH": "a2a39f305a03d80e41137a020eee99a5"
   },
   "componentDataDependencies": {
     "nodes": {
       "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode >>> MarkdownRemark": [
+        null,
+        "/",
+        "/projects/Traveller/",
+        "/projects/GreenCast/",
+        "/projects/Tendr/",
         null
       ],
       "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode >>> MarkdownRemark": [
+        null,
+        "/",
         null
       ],
       "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode >>> MarkdownRemark": [
+        null,
+        "/",
         null
       ],
       "Site": [
         "/"
+      ],
+      "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode": [
+        "/",
+        "/projects/Traveller/",
+        "/projects/GreenCast/",
+        "/projects/Tendr/"
+      ],
+      "c25GMm0vLvCqy2iEioEK8cs": [
+        "/",
+        "/projects/Traveller/",
+        "/projects/GreenCast/",
+        "/projects/Tendr/"
+      ],
+      "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode": [
+        "/"
+      ],
+      "c6pcITSlgxqiyWCieWSqguG": [
+        "/"
+      ],
+      "c3BA8d8CctGw4SuKQyGYCey": [
+        "/"
+      ],
+      "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode": [
+        "/"
+      ],
+      "c65WgfUIe64uUI6e4kUUk0M": [
+        "/"
+      ],
+      "c5p5ovWXX8Im8gCQCiUoKK8": [
+        "/"
+      ],
+      "c4IJh9C89fWWY4W8wmc0coc": [
+        "/"
+      ],
+      "c421mrSzabSu2Ak8OaIoyYw": [
+        "/"
+      ],
+      "c5et64as4YMgWcWmoUocwyw": [
+        "/"
+      ],
+      "c4SDTfn7KucUEeQayiCYq4E": [
+        "/",
+        "/projects/Traveller/",
+        "/projects/GreenCast/",
+        "/projects/Tendr/"
       ]
     },
     "connections": {

@@ -3,8 +3,22 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "projects-undefined.json",
-        "path": "/projects/undefined/"
+        "jsonName": "projects-tendr.json",
+        "path": "/projects/Tendr/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "projects-green-cast.json",
+        "path": "/projects/GreenCast/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "projects-traveller.json",
+        "path": "/projects/Traveller/"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
