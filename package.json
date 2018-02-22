@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-forty",
-  "description": "Gatsby Starter - Forty by HTML5 UP",
+  "name": "gatsby-portfolio-site",
+  "description": "Gatsby Portfolio Page - Forty by HTML5 UP",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Will Simmons",
   "dependencies": {
     "gatsby": "^1.9.118",
     "gatsby-image": "^1.0.27",
@@ -19,7 +19,7 @@
     "gatsby-transformer-sharp": "^1.6.14",
     "lodash": "^4.17.4"
   },
-  "homepage": "https://github.com/ChangoMan/gatsby-starter-forty",
+  "homepage": "https://github.com/willsimmons/portfolio",
   "keywords": [
     "gatsby"
   ],
@@ -27,7 +27,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChangoMan/gatsby-starter-forty.git"
+    "url": "https://github.com/willsimmons/portfolio.git"
   },
   "scripts": {
     "dev": "gatsby develop",
