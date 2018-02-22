@@ -1,3 +1,7 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 const _ = require("lodash")
 const Promise = require("bluebird")
 const path = require("path")
