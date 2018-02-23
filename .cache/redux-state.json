@@ -8,7 +8,7 @@
       "component": "/Users/will/Projects/portfolio/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1519423402009,
+      "updatedAt": 1519424488147,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/will/Projects/portfolio/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "74ed72432ba663ff19b3a5bdb978dc9a",
+        "contentDigest": "598c55429acb327193c129104ff88e88",
         "owner": "internal-data-bridge"
       }
     },
@@ -1219,12 +1219,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-23T22:03:04.240Z",
+      "buildTime": "2018-02-23T22:21:12.181Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2c1914d32352877ce77b6b602dca8947",
+        "contentDigest": "02c9cb18b601b372217cdc0a9c28429c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1234,7 +1234,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "998c431c086298a6cee8d5974cee6703",
+        "contentDigest": "075329f013ddcd27a321d6740a938cf5",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1245,7 +1245,7 @@
       "size": 448,
       "prettySize": "448 B",
       "modifiedTime": "2018-02-22T07:44:23.252Z",
-      "accessTime": "2018-02-23T22:03:20.893Z",
+      "accessTime": "2018-02-23T22:21:27.186Z",
       "changeTime": "2018-02-22T07:44:23.252Z",
       "birthTime": "2018-02-22T07:44:23.080Z",
       "root": "/",
@@ -1263,11 +1263,11 @@
       "blksize": 4194304,
       "ino": 6772605,
       "blocks": 0,
-      "atimeMs": 1519423400893.041,
+      "atimeMs": 1519424487185.7886,
       "mtimeMs": 1519285463252.3337,
       "ctimeMs": 1519285463252.3337,
       "birthtimeMs": 1519285463080.4417,
-      "atime": "2018-02-23T22:03:20.893Z",
+      "atime": "2018-02-23T22:21:27.186Z",
       "mtime": "2018-02-22T07:44:23.252Z",
       "ctime": "2018-02-22T07:44:23.252Z",
       "birthtime": "2018-02-22T07:44:23.080Z"
@@ -2388,7 +2388,7 @@
       "context": {
         "name": "Traveller"
       },
-      "updatedAt": 1519423402000,
+      "updatedAt": 1519424488138,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/will/Projects/portfolio/src/templates/project-post.js",
@@ -2397,7 +2397,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "139bd2d689741a250cee1cf3a6f6c609",
+        "contentDigest": "4500008835fb696800b3aedd668318f1",
         "owner": "internal-data-bridge"
       }
     },
@@ -2411,7 +2411,7 @@
       "context": {
         "name": "GreenCast"
       },
-      "updatedAt": 1519423402001,
+      "updatedAt": 1519424488139,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/will/Projects/portfolio/src/templates/project-post.js",
@@ -2420,7 +2420,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3b4df90c7b2dcf980e4de74419efbf15",
+        "contentDigest": "b4df45da9869e774653b793faa4b825f",
         "owner": "internal-data-bridge"
       }
     },
@@ -2434,7 +2434,7 @@
       "context": {
         "name": "Tendr"
       },
-      "updatedAt": 1519423402002,
+      "updatedAt": 1519424488139,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/will/Projects/portfolio/src/templates/project-post.js",
@@ -2443,7 +2443,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "30e73e298849216471a98fad8322d475",
+        "contentDigest": "b2c9d27711cf2aa6eb71b801e2a2b5cb",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/will/Projects/portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "updatedAt": 1519424488151,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/will/Projects/portfolio/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "66e53e43ff61f85009490db354a55262",
         "owner": "internal-data-bridge"
       }
     },
@@ -2455,7 +2476,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/elements.js",
       "componentChunkName": "component---src-pages-elements-js",
       "context": {},
-      "updatedAt": 1519423402014,
+      "updatedAt": 1519424488153,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/elements.js",
@@ -2464,7 +2485,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4cf6bda4800a8eac88dcbbfa33d3269d",
+        "contentDigest": "bb523043ebdc607b319202706d38c383",
         "owner": "internal-data-bridge"
       }
     },
@@ -2476,7 +2497,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/generic.js",
       "componentChunkName": "component---src-pages-generic-js",
       "context": {},
-      "updatedAt": 1519423402015,
+      "updatedAt": 1519424488153,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/generic.js",
@@ -2485,7 +2506,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "680aebd916efbb3c734917a87d8d8a3d",
+        "contentDigest": "a5d2708a38c0a1091fb423c2a4566416",
         "owner": "internal-data-bridge"
       }
     },
@@ -2497,7 +2518,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1519423402016,
+      "updatedAt": 1519424488154,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/index.js",
@@ -2506,7 +2527,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e70fea5e738096449875e2374b3f2b68",
+        "contentDigest": "85e8c5b7c800c889b2781051a0382216",
         "owner": "internal-data-bridge"
       }
     },
@@ -2518,7 +2539,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/landing.js",
       "componentChunkName": "component---src-pages-landing-js",
       "context": {},
-      "updatedAt": 1519423402016,
+      "updatedAt": 1519424488154,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/landing.js",
@@ -2527,7 +2548,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1cc89ecc74cca73a16d9a65edb0c2975",
+        "contentDigest": "05a984a51ac7cc31d713fdfe3607dd36",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/will/Projects/portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "updatedAt": 1519424488157,
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/will/Projects/portfolio/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "064492d0033b4913571a66adb505e6a6",
         "owner": "internal-data-bridge"
       }
     }
@@ -2564,8 +2606,8 @@
         "/projects/Tendr/"
       ],
       "c25GMm0vLvCqy2iEioEK8cs": [
-        "/projects/Tendr/",
-        "/"
+        "/",
+        "/projects/Tendr/"
       ],
       "c1K1QXcO4C4MGKGq8e0egk2": [
         "/projects/Tendr/"
@@ -2577,8 +2619,8 @@
         "/projects/GreenCast/"
       ],
       "c6pcITSlgxqiyWCieWSqguG": [
-        "/projects/GreenCast/",
-        "/"
+        "/",
+        "/projects/GreenCast/"
       ],
       "c3BA8d8CctGw4SuKQyGYCey": [
         "/projects/GreenCast/"
@@ -2590,8 +2632,8 @@
         "/projects/Traveller/"
       ],
       "c65WgfUIe64uUI6e4kUUk0M": [
-        "/projects/Traveller/",
-        "/"
+        "/",
+        "/projects/Traveller/"
       ],
       "c5p5ovWXX8Im8gCQCiUoKK8": [
         "/projects/Traveller/"
