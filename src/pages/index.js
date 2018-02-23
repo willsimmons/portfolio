@@ -28,16 +28,20 @@ class HomeIndex extends React.Component {
                 <div id="main">
                     <section id="one" className="tiles"> 
                     {
-                        projects.forEach((projectNode, index) => {
+                        projects.map((projectNode, index) => {
                             let project = projectNode.node;
+                            let landing = `projects/${project.name}`
+                            let screenShot = `${project.titleScreen.file.url}`
                             console.log(project, index);
-                            <article key={index} style={{backgroundImage: `${project.titleScreen.file.url}`}}>
+                            return (
+                                <article key={index} style={{backgroundImage: `url(${screenShot})`}}>
                                 <header className="major">
-                                    <h3>`${project.name}`</h3>
-                                    <div dangerouslySetInnerHTML={{ __html: project.summary }} />
+                                    <h3>{project.name}</h3>
+                                    <p> {project.summary} </p>
                                 </header>
-                                <Link to="/landing" className="link primary"></Link>
-                            </article>
+                                <Link to= {landing} className="link primary"></Link>
+                                </article>
+                            )
                         })
                     } 
                     </section>
