@@ -13,8 +13,10 @@ import pic06 from '../assets/images/pic06.jpg'
 class HomeIndex extends React.Component {
     render() {
         console.log(this.props.data);
-        const siteTitle = this.props.data.site.siteMetadata.title
-        const siteDescription = this.props.data.site.siteMetadata.description
+        const siteMetadata = this.props.data.site.siteMetadata;
+        const siteTitle = siteMetadata.title;
+        const siteDescription = siteMetadata.description;
+        const projects = this.props.data.allContentfulProject.edges;
 
         return (
             <div>
@@ -70,7 +72,7 @@ class HomeIndex extends React.Component {
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                     </section>
-                    <section id="two">
+        {/*  <section id="two">
                         <div className="inner">
                             <header className="major">
                                 <h2>Massa libero</h2>
@@ -79,8 +81,8 @@ class HomeIndex extends React.Component {
                             <ul className="actions">
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
                             </ul>
-                        </div>
-                    </section>
+                        </div>  
+        </section>  */}
                 </div>
 
             </div>
@@ -102,7 +104,11 @@ export const pageQuery = graphql`
         edges{
           node{
             name
-            summary
+            titleScreen{
+              file{
+                url
+              }
+            }
           }   
         }
       }
