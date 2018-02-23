@@ -37,6 +37,7 @@ class Template extends React.Component {
 
     render() {
         const { children } = this.props
+        console.log(children, 'here are the children')
 
         return (
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
