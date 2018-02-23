@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Menu from '../components/Menu'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import PropTypes from 'prop-types'
 
 class Template extends React.Component {
 
@@ -37,7 +38,6 @@ class Template extends React.Component {
 
     render() {
         const { children } = this.props
-        console.log(children, 'here are the children')
 
         return (
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
@@ -54,7 +54,7 @@ class Template extends React.Component {
 }
 
 Template.propTypes = {
-    children: React.PropTypes.func
+    children: PropTypes.func
 }
 
 export default Template
