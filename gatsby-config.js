@@ -39,8 +39,8 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `${process.env.CONTENT_ID}`,
-        accessToken: `${process.env.CONTENT_TOKEN}`,
+        spaceId: `${process.env.CONTENT_ID}` || '',
+        accessToken: `${process.env.CONTENT_TOKEN} || ''`,
       },
     },
     `gatsby-transformer-sharp`,
