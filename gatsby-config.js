@@ -11,13 +11,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/projects`,
-        name: 'projects',
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `images`,
         path: `${__dirname}/src/assets/images`,
       },
@@ -40,7 +33,7 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `${process.env.CONTENT_ID}` || '',
-        accessToken: `${process.env.CONTENT_TOKEN} || ''`,
+        accessToken: `${process.env.CONTENT_TOKEN}` || '',
       },
     },
     `gatsby-transformer-sharp`,
