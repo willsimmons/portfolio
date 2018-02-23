@@ -17,11 +17,11 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "projects-tendr.json": require("/Users/will/Projects/portfolio/.cache/json/projects-tendr.json"),
+  "projects-traveller.json": require("/Users/will/Projects/portfolio/.cache/json/projects-traveller.json"),
   "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
   "projects-green-cast.json": require("/Users/will/Projects/portfolio/.cache/json/projects-green-cast.json"),
   "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "projects-traveller.json": require("/Users/will/Projects/portfolio/.cache/json/projects-traveller.json"),
+  "projects-tendr.json": require("/Users/will/Projects/portfolio/.cache/json/projects-tendr.json"),
   "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
   "dev-404-page.json": require("/Users/will/Projects/portfolio/.cache/json/dev-404-page.json"),
   "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),

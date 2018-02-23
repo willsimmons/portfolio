@@ -8,7 +8,7 @@
       "component": "/Users/will/Projects/portfolio/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1519413688989,
+      "updatedAt": 1519423402009,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/will/Projects/portfolio/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "aaf66b053aa32fc5f048202c292e6ab9",
+        "contentDigest": "74ed72432ba663ff19b3a5bdb978dc9a",
         "owner": "internal-data-bridge"
       }
     },
@@ -1102,7 +1102,7 @@
       "resolve": "/Users/will/Projects/portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "0b349777d308f654b35d8d7e74f078d8",
+      "version": "056a69cb204a8ff3b95964f68f71ebb4",
       "pluginOptions": {
         "plugins": []
       },
@@ -1204,7 +1204,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e73ae91d214657ae62b4fb71e48147e0",
+        "contentDigest": "45ab2c93066ad792fd8a8b78d51d1cb1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1217,13 +1217,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "/",
-      "buildTime": "2018-02-23T19:21:12.335Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-02-23T22:03:04.240Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7600ec3976f613c68b1fd38c8fa22ccc",
+        "contentDigest": "2c1914d32352877ce77b6b602dca8947",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1233,7 +1234,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8f0d450206d3d3085719cad966599f7f",
+        "contentDigest": "998c431c086298a6cee8d5974cee6703",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1244,7 +1245,7 @@
       "size": 448,
       "prettySize": "448 B",
       "modifiedTime": "2018-02-22T07:44:23.252Z",
-      "accessTime": "2018-02-23T19:21:27.974Z",
+      "accessTime": "2018-02-23T22:03:20.893Z",
       "changeTime": "2018-02-22T07:44:23.252Z",
       "birthTime": "2018-02-22T07:44:23.080Z",
       "root": "/",
@@ -1262,11 +1263,11 @@
       "blksize": 4194304,
       "ino": 6772605,
       "blocks": 0,
-      "atimeMs": 1519413687973.9226,
+      "atimeMs": 1519423400893.041,
       "mtimeMs": 1519285463252.3337,
       "ctimeMs": 1519285463252.3337,
       "birthtimeMs": 1519285463080.4417,
-      "atime": "2018-02-23T19:21:27.974Z",
+      "atime": "2018-02-23T22:03:20.893Z",
       "mtime": "2018-02-22T07:44:23.252Z",
       "ctime": "2018-02-22T07:44:23.252Z",
       "birthtime": "2018-02-22T07:44:23.080Z"
@@ -1290,7 +1291,7 @@
       "size": 31758,
       "prettySize": "31.8 kB",
       "modifiedTime": "2018-02-22T07:44:23.133Z",
-      "accessTime": "2018-02-23T18:52:31.741Z",
+      "accessTime": "2018-02-23T19:21:34.414Z",
       "changeTime": "2018-02-22T07:44:23.133Z",
       "birthTime": "2018-02-22T07:44:23.133Z",
       "root": "/",
@@ -1308,11 +1309,11 @@
       "blksize": 4194304,
       "ino": 6772608,
       "blocks": 64,
-      "atimeMs": 1519411951741.4482,
+      "atimeMs": 1519413694414.3457,
       "mtimeMs": 1519285463133.3223,
       "ctimeMs": 1519285463133.3223,
       "birthtimeMs": 1519285463133.2417,
-      "atime": "2018-02-23T18:52:31.741Z",
+      "atime": "2018-02-23T19:21:34.414Z",
       "mtime": "2018-02-22T07:44:23.133Z",
       "ctime": "2018-02-22T07:44:23.133Z",
       "birthtime": "2018-02-22T07:44:23.133Z"
@@ -1346,7 +1347,7 @@
       "size": 107101,
       "prettySize": "107 kB",
       "modifiedTime": "2018-02-22T07:44:23.130Z",
-      "accessTime": "2018-02-23T18:52:31.741Z",
+      "accessTime": "2018-02-23T19:21:34.414Z",
       "changeTime": "2018-02-22T07:44:23.130Z",
       "birthTime": "2018-02-22T07:44:23.130Z",
       "root": "/",
@@ -1364,11 +1365,11 @@
       "blksize": 4194304,
       "ino": 6772607,
       "blocks": 216,
-      "atimeMs": 1519411951741.437,
+      "atimeMs": 1519413694414.3403,
       "mtimeMs": 1519285463129.943,
       "ctimeMs": 1519285463129.943,
       "birthtimeMs": 1519285463129.8528,
-      "atime": "2018-02-23T18:52:31.741Z",
+      "atime": "2018-02-23T19:21:34.414Z",
       "mtime": "2018-02-22T07:44:23.130Z",
       "ctime": "2018-02-22T07:44:23.130Z",
       "birthtime": "2018-02-22T07:44:23.130Z"
@@ -1392,7 +1393,7 @@
       "size": 77100,
       "prettySize": "77.1 kB",
       "modifiedTime": "2018-02-22T07:44:23.156Z",
-      "accessTime": "2018-02-23T18:52:31.741Z",
+      "accessTime": "2018-02-23T19:21:34.414Z",
       "changeTime": "2018-02-22T07:44:23.156Z",
       "birthTime": "2018-02-22T07:44:23.156Z",
       "root": "/",
@@ -1410,11 +1411,11 @@
       "blksize": 4194304,
       "ino": 6772610,
       "blocks": 152,
-      "atimeMs": 1519411951741.4744,
+      "atimeMs": 1519413694414.3728,
       "mtimeMs": 1519285463156.0693,
       "ctimeMs": 1519285463156.0693,
       "birthtimeMs": 1519285463155.9907,
-      "atime": "2018-02-23T18:52:31.741Z",
+      "atime": "2018-02-23T19:21:34.414Z",
       "mtime": "2018-02-22T07:44:23.156Z",
       "ctime": "2018-02-22T07:44:23.156Z",
       "birthtime": "2018-02-22T07:44:23.156Z"
@@ -1438,7 +1439,7 @@
       "size": 83499,
       "prettySize": "83.5 kB",
       "modifiedTime": "2018-02-22T07:44:23.162Z",
-      "accessTime": "2018-02-23T18:52:31.741Z",
+      "accessTime": "2018-02-23T19:21:34.414Z",
       "changeTime": "2018-02-22T07:44:23.162Z",
       "birthTime": "2018-02-22T07:44:23.162Z",
       "root": "/",
@@ -1456,11 +1457,11 @@
       "blksize": 4194304,
       "ino": 6772611,
       "blocks": 168,
-      "atimeMs": 1519411951741.486,
+      "atimeMs": 1519413694414.379,
       "mtimeMs": 1519285463162.2834,
       "ctimeMs": 1519285463162.2834,
       "birthtimeMs": 1519285463162.1936,
-      "atime": "2018-02-23T18:52:31.741Z",
+      "atime": "2018-02-23T19:21:34.414Z",
       "mtime": "2018-02-22T07:44:23.162Z",
       "ctime": "2018-02-22T07:44:23.162Z",
       "birthtime": "2018-02-22T07:44:23.162Z"
@@ -1484,7 +1485,7 @@
       "size": 115307,
       "prettySize": "115 kB",
       "modifiedTime": "2018-02-22T07:44:23.167Z",
-      "accessTime": "2018-02-23T18:52:31.741Z",
+      "accessTime": "2018-02-23T19:21:34.414Z",
       "changeTime": "2018-02-22T07:44:23.167Z",
       "birthTime": "2018-02-22T07:44:23.167Z",
       "root": "/",
@@ -1502,11 +1503,11 @@
       "blksize": 4194304,
       "ino": 6772612,
       "blocks": 232,
-      "atimeMs": 1519411951741.499,
+      "atimeMs": 1519413694414.4048,
       "mtimeMs": 1519285463166.8196,
       "ctimeMs": 1519285463166.8196,
       "birthtimeMs": 1519285463166.6904,
-      "atime": "2018-02-23T18:52:31.741Z",
+      "atime": "2018-02-23T19:21:34.414Z",
       "mtime": "2018-02-22T07:44:23.167Z",
       "ctime": "2018-02-22T07:44:23.167Z",
       "birthtime": "2018-02-22T07:44:23.167Z"
@@ -1530,7 +1531,7 @@
       "size": 126687,
       "prettySize": "127 kB",
       "modifiedTime": "2018-02-22T07:44:23.177Z",
-      "accessTime": "2018-02-23T18:52:20.261Z",
+      "accessTime": "2018-02-23T19:21:29.146Z",
       "changeTime": "2018-02-22T07:44:23.177Z",
       "birthTime": "2018-02-22T07:44:23.177Z",
       "root": "/",
@@ -1548,11 +1549,11 @@
       "blksize": 4194304,
       "ino": 6772613,
       "blocks": 248,
-      "atimeMs": 1519411940261.3506,
+      "atimeMs": 1519413689145.864,
       "mtimeMs": 1519285463177.3135,
       "ctimeMs": 1519285463177.3135,
       "birthtimeMs": 1519285463177.2012,
-      "atime": "2018-02-23T18:52:20.261Z",
+      "atime": "2018-02-23T19:21:29.146Z",
       "mtime": "2018-02-22T07:44:23.177Z",
       "ctime": "2018-02-22T07:44:23.177Z",
       "birthtime": "2018-02-22T07:44:23.177Z"
@@ -1576,7 +1577,7 @@
       "size": 119559,
       "prettySize": "120 kB",
       "modifiedTime": "2018-02-22T07:44:23.186Z",
-      "accessTime": "2018-02-23T18:52:31.742Z",
+      "accessTime": "2018-02-23T19:21:34.414Z",
       "changeTime": "2018-02-22T07:44:23.186Z",
       "birthTime": "2018-02-22T07:44:23.186Z",
       "root": "/",
@@ -1594,11 +1595,11 @@
       "blksize": 4194304,
       "ino": 6772614,
       "blocks": 240,
-      "atimeMs": 1519411951741.519,
+      "atimeMs": 1519413694414.4824,
       "mtimeMs": 1519285463185.752,
       "ctimeMs": 1519285463185.752,
       "birthtimeMs": 1519285463185.6453,
-      "atime": "2018-02-23T18:52:31.742Z",
+      "atime": "2018-02-23T19:21:34.414Z",
       "mtime": "2018-02-22T07:44:23.186Z",
       "ctime": "2018-02-22T07:44:23.186Z",
       "birthtime": "2018-02-22T07:44:23.186Z"
@@ -1622,7 +1623,7 @@
       "size": 98842,
       "prettySize": "98.8 kB",
       "modifiedTime": "2018-02-22T07:44:23.252Z",
-      "accessTime": "2018-02-23T18:52:31.742Z",
+      "accessTime": "2018-02-23T19:21:34.415Z",
       "changeTime": "2018-02-22T07:44:23.252Z",
       "birthTime": "2018-02-22T07:44:23.252Z",
       "root": "/",
@@ -1640,11 +1641,11 @@
       "blksize": 4194304,
       "ino": 6772619,
       "blocks": 200,
-      "atimeMs": 1519411951741.5596,
+      "atimeMs": 1519413694414.5044,
       "mtimeMs": 1519285463252.4434,
       "ctimeMs": 1519285463252.4434,
       "birthtimeMs": 1519285463252.3235,
-      "atime": "2018-02-23T18:52:31.742Z",
+      "atime": "2018-02-23T19:21:34.415Z",
       "mtime": "2018-02-22T07:44:23.252Z",
       "ctime": "2018-02-22T07:44:23.252Z",
       "birthtime": "2018-02-22T07:44:23.252Z"
@@ -1689,16 +1690,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file",
-      "internal": {
-        "contentDigest": "629ab62f6ddb5d5b5d903cbd4343aa99",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "/Users/will/Projects/portfolio/src/assets/images/pic03.jpg absPath of file": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic03.jpg absPath of file",
       "children": [
@@ -1718,7 +1709,7 @@
       "size": 222587,
       "prettySize": "223 kB",
       "modifiedTime": "2018-02-22T07:44:23.136Z",
-      "accessTime": "2018-02-23T18:52:31.741Z",
+      "accessTime": "2018-02-23T19:21:34.414Z",
       "changeTime": "2018-02-22T07:44:23.136Z",
       "birthTime": "2018-02-22T07:44:23.135Z",
       "root": "/",
@@ -1736,14 +1727,24 @@
       "blksize": 4194304,
       "ino": 6772609,
       "blocks": 440,
-      "atimeMs": 1519411951741.4631,
+      "atimeMs": 1519413694414.354,
       "mtimeMs": 1519285463135.5466,
       "ctimeMs": 1519285463135.5466,
       "birthtimeMs": 1519285463135.4011,
-      "atime": "2018-02-23T18:52:31.741Z",
+      "atime": "2018-02-23T19:21:34.414Z",
       "mtime": "2018-02-22T07:44:23.136Z",
       "ctime": "2018-02-22T07:44:23.136Z",
       "birthtime": "2018-02-22T07:44:23.135Z"
+    },
+    "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/will/Projects/portfolio/src/assets/images/pic07.jpg absPath of file",
+      "internal": {
+        "contentDigest": "629ab62f6ddb5d5b5d903cbd4343aa99",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp": {
       "id": "/Users/will/Projects/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp",
@@ -1794,7 +1795,7 @@
       "size": 331144,
       "prettySize": "331 kB",
       "modifiedTime": "2018-02-22T07:44:23.081Z",
-      "accessTime": "2018-02-23T18:52:31.741Z",
+      "accessTime": "2018-02-23T19:21:37.928Z",
       "changeTime": "2018-02-22T07:44:23.081Z",
       "birthTime": "2018-02-22T07:44:23.081Z",
       "root": "/",
@@ -1812,11 +1813,11 @@
       "blksize": 4194304,
       "ino": 6772606,
       "blocks": 648,
-      "atimeMs": 1519411951741.4326,
+      "atimeMs": 1519413697928.0906,
       "mtimeMs": 1519285463081.1003,
       "ctimeMs": 1519285463081.1003,
       "birthtimeMs": 1519285463080.9705,
-      "atime": "2018-02-23T18:52:31.741Z",
+      "atime": "2018-02-23T19:21:37.928Z",
       "mtime": "2018-02-22T07:44:23.081Z",
       "ctime": "2018-02-22T07:44:23.081Z",
       "birthtime": "2018-02-22T07:44:23.081Z"
@@ -1850,7 +1851,7 @@
       "size": 85946,
       "prettySize": "85.9 kB",
       "modifiedTime": "2018-02-22T07:44:23.233Z",
-      "accessTime": "2018-02-23T18:52:31.742Z",
+      "accessTime": "2018-02-23T19:21:34.414Z",
       "changeTime": "2018-02-22T07:44:23.233Z",
       "birthTime": "2018-02-22T07:44:23.233Z",
       "root": "/",
@@ -1868,11 +1869,11 @@
       "blksize": 4194304,
       "ino": 6772615,
       "blocks": 168,
-      "atimeMs": 1519411951741.5322,
+      "atimeMs": 1519413694414.4905,
       "mtimeMs": 1519285463233.2832,
       "ctimeMs": 1519285463233.2832,
       "birthtimeMs": 1519285463233.1445,
-      "atime": "2018-02-23T18:52:31.742Z",
+      "atime": "2018-02-23T19:21:34.414Z",
       "mtime": "2018-02-22T07:44:23.233Z",
       "ctime": "2018-02-22T07:44:23.233Z",
       "birthtime": "2018-02-22T07:44:23.233Z"
@@ -1906,7 +1907,7 @@
       "size": 130687,
       "prettySize": "131 kB",
       "modifiedTime": "2018-02-22T07:44:23.239Z",
-      "accessTime": "2018-02-23T18:52:31.742Z",
+      "accessTime": "2018-02-23T19:21:34.414Z",
       "changeTime": "2018-02-22T07:44:23.239Z",
       "birthTime": "2018-02-22T07:44:23.239Z",
       "root": "/",
@@ -1924,11 +1925,11 @@
       "blksize": 4194304,
       "ino": 6772616,
       "blocks": 256,
-      "atimeMs": 1519411951741.5452,
+      "atimeMs": 1519413694414.4998,
       "mtimeMs": 1519285463239.164,
       "ctimeMs": 1519285463239.164,
       "birthtimeMs": 1519285463239.077,
-      "atime": "2018-02-23T18:52:31.742Z",
+      "atime": "2018-02-23T19:21:34.414Z",
       "mtime": "2018-02-22T07:44:23.239Z",
       "ctime": "2018-02-22T07:44:23.239Z",
       "birthtime": "2018-02-22T07:44:23.239Z"
@@ -1943,18 +1944,18 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode": {
-      "id": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode",
-      "parent": "c4SDTfn7KucUEeQayiCYq4E",
+    "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode": {
+      "id": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode",
+      "parent": "c520qc8KCMgQKKe0kkQimmw",
       "children": [
-        "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode >>> MarkdownRemark"
+        "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode >>> MarkdownRemark"
       ],
-      "description": "* Extended MySQL database functionality to allow for document editing and single item sharing across users\n* Test suite utilizes Mocha, Sinon and SuperTest for stability and maintainability\n* TravisCI daily builds in AWS with TravisCI, limiting production code to test-bank approved features\n* Node.js based, project utilizes Google Cloud Vision, PayPal, and Square API's",
+      "description": "* Dockerized for easy deployment, originally deployed on AWS\n* Application state managed with Redux for maintainability and extensibility\n* Tested application with Testflight and Xcode for performance optimization\n* Material Design UI in React Native for uniformity with Google Maps",
       "internal": {
         "type": "contentfulProjectDescriptionTextNode",
         "mediaType": "text/markdown",
-        "content": "* Extended MySQL database functionality to allow for document editing and single item sharing across users\n* Test suite utilizes Mocha, Sinon and SuperTest for stability and maintainability\n* TravisCI daily builds in AWS with TravisCI, limiting production code to test-bank approved features\n* Node.js based, project utilizes Google Cloud Vision, PayPal, and Square API's",
-        "contentDigest": "56c2368df6dca3ea4e1661ad57809a4c",
+        "content": "* Dockerized for easy deployment, originally deployed on AWS\n* Application state managed with Redux for maintainability and extensibility\n* Tested application with Testflight and Xcode for performance optimization\n* Material Design UI in React Native for uniformity with Google Maps",
+        "contentDigest": "c46dab8f2e5d917dafe9e80740d42a4c",
         "owner": "gatsby-source-contentful"
       }
     },
@@ -1973,18 +1974,18 @@
         "owner": "gatsby-source-contentful"
       }
     },
-    "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode": {
-      "id": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode",
-      "parent": "c520qc8KCMgQKKe0kkQimmw",
+    "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode": {
+      "id": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode",
+      "parent": "c4SDTfn7KucUEeQayiCYq4E",
       "children": [
-        "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode >>> MarkdownRemark"
+        "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode >>> MarkdownRemark"
       ],
-      "description": "* Dockerized for easy deployment, originally deployed on AWS\n* Application state managed with Redux for maintainability and extensibility\n* Tested application with Testflight and Xcode for performance optimization\n* Material Design UI in React Native for uniformity with Google Maps",
+      "description": "* Extended MySQL database functionality to allow for document editing and single item sharing across users\n* Test suite utilizes Mocha, Sinon and SuperTest for stability and maintainability\n* TravisCI daily builds in AWS with TravisCI, limiting production code to test-bank approved features\n* Node.js based, project utilizes Google Cloud Vision, PayPal, and Square API's",
       "internal": {
         "type": "contentfulProjectDescriptionTextNode",
         "mediaType": "text/markdown",
-        "content": "* Dockerized for easy deployment, originally deployed on AWS\n* Application state managed with Redux for maintainability and extensibility\n* Tested application with Testflight and Xcode for performance optimization\n* Material Design UI in React Native for uniformity with Google Maps",
-        "contentDigest": "c46dab8f2e5d917dafe9e80740d42a4c",
+        "content": "* Extended MySQL database functionality to allow for document editing and single item sharing across users\n* Test suite utilizes Mocha, Sinon and SuperTest for stability and maintainability\n* TravisCI daily builds in AWS with TravisCI, limiting production code to test-bank approved features\n* Node.js based, project utilizes Google Cloud Vision, PayPal, and Square API's",
+        "contentDigest": "56c2368df6dca3ea4e1661ad57809a4c",
         "owner": "gatsby-source-contentful"
       }
     },
@@ -2001,54 +2002,9 @@
         "owner": "gatsby-source-contentful"
       }
     },
-    "c4SDTfn7KucUEeQayiCYq4E": {
-      "name": "Tendr",
-      "summary": "bill splitting SPA",
-      "repoURL": "https://github.com/newtonian-platypus/piddle",
-      "titleScreen___NODE": "c25GMm0vLvCqy2iEioEK8cs",
-      "description___NODE": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode",
-      "id": "c4SDTfn7KucUEeQayiCYq4E",
-      "contentful_id": "4SDTfn7KucUEeQayiCYq4E",
-      "createdAt": "2018-02-20T05:52:48.041Z",
-      "updatedAt": "2018-02-20T05:52:48.041Z",
-      "parent": "Project",
-      "children": [
-        "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode"
-      ],
-      "internal": {
-        "type": "ContentfulProject",
-        "contentDigest": "144cfb734a24e4a75dd51e075c1dad39",
-        "owner": "gatsby-source-contentful"
-      },
-      "node_locale": "en-US"
-    },
-    "c4gkBceXkzScYSWy6CcYMAm": {
-      "name": "GreenCast",
-      "summary": "SPA for subscribing and playing podcasts",
-      "repoURL": "https://github.com/newtonian-platypus/greenCast",
-      "titleScreen___NODE": "c6pcITSlgxqiyWCieWSqguG",
-      "screens___NODE": [
-        "c3BA8d8CctGw4SuKQyGYCey"
-      ],
-      "description___NODE": "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode",
-      "id": "c4gkBceXkzScYSWy6CcYMAm",
-      "contentful_id": "4gkBceXkzScYSWy6CcYMAm",
-      "createdAt": "2018-02-20T05:33:12.707Z",
-      "updatedAt": "2018-02-20T05:41:02.418Z",
-      "parent": "Project",
-      "children": [
-        "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode"
-      ],
-      "internal": {
-        "type": "ContentfulProject",
-        "contentDigest": "94cd0b93ed799ce0e689660530874d50",
-        "owner": "gatsby-source-contentful"
-      },
-      "node_locale": "en-US"
-    },
     "c520qc8KCMgQKKe0kkQimmw": {
       "name": "Traveller",
-      "summary": "Isochron map mobile application",
+      "summary": "Isochron map native mobile app",
       "repoURL": "https://github.com/Alabaster-Aardvarks/Traveller",
       "titleScreen___NODE": "c65WgfUIe64uUI6e4kUUk0M",
       "screens___NODE": [
@@ -2061,14 +2017,62 @@
       "id": "c520qc8KCMgQKKe0kkQimmw",
       "contentful_id": "520qc8KCMgQKKe0kkQimmw",
       "createdAt": "2018-02-20T05:12:36.843Z",
-      "updatedAt": "2018-02-20T05:40:32.832Z",
+      "updatedAt": "2018-02-23T20:01:41.730Z",
       "parent": "Project",
       "children": [
         "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode"
       ],
       "internal": {
         "type": "ContentfulProject",
-        "contentDigest": "a0e898d4b5d00740640aecd24d535415",
+        "contentDigest": "90f361d6c035478026edef5bae674716",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c4gkBceXkzScYSWy6CcYMAm": {
+      "name": "GreenCast",
+      "summary": "App for subscribing to and playing podcasts",
+      "repoURL": "https://github.com/newtonian-platypus/greenCast",
+      "titleScreen___NODE": "c6pcITSlgxqiyWCieWSqguG",
+      "screens___NODE": [
+        "c3BA8d8CctGw4SuKQyGYCey"
+      ],
+      "description___NODE": "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode",
+      "id": "c4gkBceXkzScYSWy6CcYMAm",
+      "contentful_id": "4gkBceXkzScYSWy6CcYMAm",
+      "createdAt": "2018-02-20T05:33:12.707Z",
+      "updatedAt": "2018-02-23T20:00:25.262Z",
+      "parent": "Project",
+      "children": [
+        "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulProject",
+        "contentDigest": "74a79b67cb83850e1a570c504a8f21a9",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c4SDTfn7KucUEeQayiCYq4E": {
+      "name": "Tendr",
+      "summary": "App that allows users to split shared bills",
+      "repoURL": "https://github.com/newtonian-platypus/piddle",
+      "titleScreen___NODE": "c25GMm0vLvCqy2iEioEK8cs",
+      "screens___NODE": [
+        "c1K1QXcO4C4MGKGq8e0egk2"
+      ],
+      "description___NODE": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode",
+      "id": "c4SDTfn7KucUEeQayiCYq4E",
+      "contentful_id": "4SDTfn7KucUEeQayiCYq4E",
+      "createdAt": "2018-02-20T05:52:48.041Z",
+      "updatedAt": "2018-02-23T20:00:08.217Z",
+      "parent": "Project",
+      "children": [
+        "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulProject",
+        "contentDigest": "5ec08f42d20eec84f6cc5531aef7f02d",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -2323,20 +2327,20 @@
         "owner": "gatsby-source-contentful"
       }
     },
-    "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode >>> MarkdownRemark": {
-      "id": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode >>> MarkdownRemark",
+    "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode >>> MarkdownRemark": {
+      "id": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode >>> MarkdownRemark",
       "children": [],
-      "parent": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode",
+      "parent": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode",
       "internal": {
-        "content": "* Extended MySQL database functionality to allow for document editing and single item sharing across users\n* Test suite utilizes Mocha, Sinon and SuperTest for stability and maintainability\n* TravisCI daily builds in AWS with TravisCI, limiting production code to test-bank approved features\n* Node.js based, project utilizes Google Cloud Vision, PayPal, and Square API's",
-        "contentDigest": "4c31fd3558d1ef63d21ad7d5b06fedbf",
+        "content": "* Dockerized for easy deployment, originally deployed on AWS\n* Application state managed with Redux for maintainability and extensibility\n* Tested application with Testflight and Xcode for performance optimization\n* Material Design UI in React Native for uniformity with Google Maps",
+        "contentDigest": "bd21095fd88ce07434547697dc16f8a9",
         "type": "MarkdownRemark",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
         "title": "",
-        "_PARENT": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode",
-        "parent": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode"
+        "_PARENT": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode",
+        "parent": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode"
       },
       "excerpt": ""
     },
@@ -2357,43 +2361,43 @@
       },
       "excerpt": ""
     },
-    "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode >>> MarkdownRemark": {
-      "id": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode >>> MarkdownRemark",
+    "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode >>> MarkdownRemark": {
+      "id": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode >>> MarkdownRemark",
       "children": [],
-      "parent": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode",
+      "parent": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode",
       "internal": {
-        "content": "* Dockerized for easy deployment, originally deployed on AWS\n* Application state managed with Redux for maintainability and extensibility\n* Tested application with Testflight and Xcode for performance optimization\n* Material Design UI in React Native for uniformity with Google Maps",
-        "contentDigest": "bd21095fd88ce07434547697dc16f8a9",
+        "content": "* Extended MySQL database functionality to allow for document editing and single item sharing across users\n* Test suite utilizes Mocha, Sinon and SuperTest for stability and maintainability\n* TravisCI daily builds in AWS with TravisCI, limiting production code to test-bank approved features\n* Node.js based, project utilizes Google Cloud Vision, PayPal, and Square API's",
+        "contentDigest": "4c31fd3558d1ef63d21ad7d5b06fedbf",
         "type": "MarkdownRemark",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
         "title": "",
-        "_PARENT": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode",
-        "parent": "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode"
+        "_PARENT": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode",
+        "parent": "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode"
       },
       "excerpt": ""
     },
-    "SitePage /projects/Tendr/": {
+    "SitePage /projects/Traveller/": {
       "layout": "index",
-      "jsonName": "projects-tendr.json",
-      "internalComponentName": "ComponentProjectsTendr",
-      "path": "/projects/Tendr/",
+      "jsonName": "projects-traveller.json",
+      "internalComponentName": "ComponentProjectsTraveller",
+      "path": "/projects/Traveller/",
       "component": "/Users/will/Projects/portfolio/src/templates/project-post.js",
       "componentChunkName": "component---src-templates-project-post-js",
       "context": {
-        "name": "Tendr"
+        "name": "Traveller"
       },
-      "updatedAt": 1519413893199,
+      "updatedAt": 1519423402000,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/will/Projects/portfolio/src/templates/project-post.js",
-      "id": "SitePage /projects/Tendr/",
+      "id": "SitePage /projects/Traveller/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0d3b18b72b55c95930af194099518e1e",
+        "contentDigest": "139bd2d689741a250cee1cf3a6f6c609",
         "owner": "internal-data-bridge"
       }
     },
@@ -2407,7 +2411,7 @@
       "context": {
         "name": "GreenCast"
       },
-      "updatedAt": 1519413893202,
+      "updatedAt": 1519423402001,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/will/Projects/portfolio/src/templates/project-post.js",
@@ -2416,30 +2420,30 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5a3adcc524aca39905a808615e825551",
+        "contentDigest": "3b4df90c7b2dcf980e4de74419efbf15",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /projects/Traveller/": {
+    "SitePage /projects/Tendr/": {
       "layout": "index",
-      "jsonName": "projects-traveller.json",
-      "internalComponentName": "ComponentProjectsTraveller",
-      "path": "/projects/Traveller/",
+      "jsonName": "projects-tendr.json",
+      "internalComponentName": "ComponentProjectsTendr",
+      "path": "/projects/Tendr/",
       "component": "/Users/will/Projects/portfolio/src/templates/project-post.js",
       "componentChunkName": "component---src-templates-project-post-js",
       "context": {
-        "name": "Traveller"
+        "name": "Tendr"
       },
-      "updatedAt": 1519413893203,
+      "updatedAt": 1519423402002,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/will/Projects/portfolio/src/templates/project-post.js",
-      "id": "SitePage /projects/Traveller/",
+      "id": "SitePage /projects/Tendr/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "879f0b1b9ae4a0b0e5dc9b8f2e9ab15b",
+        "contentDigest": "30e73e298849216471a98fad8322d475",
         "owner": "internal-data-bridge"
       }
     },
@@ -2451,7 +2455,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/elements.js",
       "componentChunkName": "component---src-pages-elements-js",
       "context": {},
-      "updatedAt": 1519413688995,
+      "updatedAt": 1519423402014,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/elements.js",
@@ -2460,7 +2464,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ffe7ccf2d719a6f04af72e4382e830bd",
+        "contentDigest": "4cf6bda4800a8eac88dcbbfa33d3269d",
         "owner": "internal-data-bridge"
       }
     },
@@ -2472,7 +2476,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/generic.js",
       "componentChunkName": "component---src-pages-generic-js",
       "context": {},
-      "updatedAt": 1519413688996,
+      "updatedAt": 1519423402015,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/generic.js",
@@ -2481,7 +2485,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "833a59c439903c256daad5348b270f1b",
+        "contentDigest": "680aebd916efbb3c734917a87d8d8a3d",
         "owner": "internal-data-bridge"
       }
     },
@@ -2493,7 +2497,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1519413688997,
+      "updatedAt": 1519423402016,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/index.js",
@@ -2502,7 +2506,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "24ea5c627a386a61859575fedf02ab77",
+        "contentDigest": "e70fea5e738096449875e2374b3f2b68",
         "owner": "internal-data-bridge"
       }
     },
@@ -2514,7 +2518,7 @@
       "component": "/Users/will/Projects/portfolio/src/pages/landing.js",
       "componentChunkName": "component---src-pages-landing-js",
       "context": {},
-      "updatedAt": 1519413688998,
+      "updatedAt": 1519423402016,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/will/Projects/portfolio/src/pages/landing.js",
@@ -2523,7 +2527,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "78cf4d775d4d07702794fc773619da89",
+        "contentDigest": "1cc89ecc74cca73a16d9a65edb0c2975",
         "owner": "internal-data-bridge"
       }
     }
@@ -2531,24 +2535,53 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "uconvssgdrn4": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCnsKEw5Iyw4bDncK3ISNjw5F3LMKpYHh7bXTCgcK_wp7DvMKOKMOZRyhPe1TCohXCiB_DpC4gKSfCoADClcKDw7MbMcODw5nDhcK1dMO0Xg5dFQ3DlsK7d8KEwr3DiA"
+        "uconvssgdrn4": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCocKDGcO-wq3CpcOfwpfCjjZCH8OQBmDCqEnDpQHCpQjCrARqw4TDiH7CiCIcw4zCiHLCq0RgS8KmwozCqknChMKSwp1qZ8OlXsKpQApscnPDl8O9CcOuw7vCoxLCiW7DgQ"
       }
     },
-    "PLUGINS_HASH": "7cd4778736f68f93373c639b2bd1e114"
+    "PLUGINS_HASH": "77c30cbef93f628bf2e6cea53312b5b3"
   },
   "componentDataDependencies": {
     "nodes": {
-      "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode >>> MarkdownRemark": [
+      "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode >>> MarkdownRemark": [
         null,
-        "/projects/Tendr/"
+        "/projects/Traveller/",
+        null
       ],
       "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode >>> MarkdownRemark": [
         null,
+        "/projects/GreenCast/",
+        null
+      ],
+      "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode >>> MarkdownRemark": [
+        null,
+        "/projects/Tendr/",
+        null
+      ],
+      "c4SDTfn7KucUEeQayiCYq4E": [
+        "/projects/Tendr/"
+      ],
+      "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode": [
+        "/projects/Tendr/"
+      ],
+      "c25GMm0vLvCqy2iEioEK8cs": [
+        "/projects/Tendr/",
+        "/"
+      ],
+      "c1K1QXcO4C4MGKGq8e0egk2": [
+        "/projects/Tendr/"
+      ],
+      "c4gkBceXkzScYSWy6CcYMAm": [
         "/projects/GreenCast/"
       ],
-      "c520qc8KCMgQKKe0kkQimmwdescriptionTextNode >>> MarkdownRemark": [
-        null,
-        "/projects/Traveller/"
+      "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode": [
+        "/projects/GreenCast/"
+      ],
+      "c6pcITSlgxqiyWCieWSqguG": [
+        "/projects/GreenCast/",
+        "/"
+      ],
+      "c3BA8d8CctGw4SuKQyGYCey": [
+        "/projects/GreenCast/"
       ],
       "c520qc8KCMgQKKe0kkQimmw": [
         "/projects/Traveller/"
@@ -2571,29 +2604,6 @@
       ],
       "c5et64as4YMgWcWmoUocwyw": [
         "/projects/Traveller/"
-      ],
-      "c4gkBceXkzScYSWy6CcYMAm": [
-        "/projects/GreenCast/"
-      ],
-      "c4gkBceXkzScYSWy6CcYMAmdescriptionTextNode": [
-        "/projects/GreenCast/"
-      ],
-      "c6pcITSlgxqiyWCieWSqguG": [
-        "/projects/GreenCast/",
-        "/"
-      ],
-      "c3BA8d8CctGw4SuKQyGYCey": [
-        "/projects/GreenCast/"
-      ],
-      "c4SDTfn7KucUEeQayiCYq4E": [
-        "/projects/Tendr/"
-      ],
-      "c4SDTfn7KucUEeQayiCYq4EdescriptionTextNode": [
-        "/projects/Tendr/"
-      ],
-      "c25GMm0vLvCqy2iEioEK8cs": [
-        "/projects/Tendr/",
-        "/"
       ],
       "Site": [
         "/"

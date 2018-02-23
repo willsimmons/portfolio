@@ -3,8 +3,8 @@
         "componentChunkName": "component---src-templates-project-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "projects-tendr.json",
-        "path": "/projects/Tendr/"
+        "jsonName": "projects-traveller.json",
+        "path": "/projects/Traveller/"
     },
     {
         "componentChunkName": "component---src-templates-project-post-js",
@@ -17,8 +17,8 @@
         "componentChunkName": "component---src-templates-project-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "projects-traveller.json",
-        "path": "/projects/Traveller/"
+        "jsonName": "projects-tendr.json",
+        "path": "/projects/Tendr/"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
