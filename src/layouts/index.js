@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 import '../assets/scss/main.scss'
 import Header from '../components/Header'
 import Menu from '../components/Menu'
-import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import PropTypes from 'prop-types'
 
@@ -44,7 +43,6 @@ class Template extends React.Component {
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
                     {children()}
-                    <Contact />
                     <Footer />
                 </div>
                 <Menu onToggleMenu={this.handleToggleMenu} />
