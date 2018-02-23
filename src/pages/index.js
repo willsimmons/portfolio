@@ -12,6 +12,7 @@ import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
     render() {
+        console.log(this.props.data);
         const siteTitle = this.props.data.site.siteMetadata.title
         const siteDescription = this.props.data.site.siteMetadata.description
 
@@ -91,11 +92,19 @@ export default HomeIndex
 
 export const pageQuery = graphql`
     query PageQuery {
-        site {
-            siteMetadata {
-                title
-                description
-            }
+      site{
+        siteMetadata{                   
+          title
+          description
         }
+      }
+      allContentfulProject{
+        edges{
+          node{
+            name
+            summary
+          }   
+        }
+      }
     }
 `
