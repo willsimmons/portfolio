@@ -28,7 +28,7 @@ class ProjectPostTemplate extends React.Component {
               <div className="content">
                 <div className="inner">
                   <header className="major">
-                    <h3>About the Project</h3>
+                    <h3>About {projectName}</h3>
                   </header>
                   <div dangerouslySetInnerHTML={{ __html: description }} />
                   <ul className="actions">
