@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 
 import pic11 from '../assets/images/pic11.jpg'
 
+
+//use this as the template for blog posts
 const Generic = (props) => (
     <div>
         <Helmet>

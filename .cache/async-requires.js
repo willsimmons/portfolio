@@ -5,10 +5,7 @@ exports.components = {
   "component---src-templates-project-post-js": require("gatsby-module-loader?name=component---src-templates-project-post-js!/Users/will/Projects/portfolio/src/templates/project-post.js"),
   "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/will/Projects/portfolio/.cache/dev-404-page.js"),
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/will/Projects/portfolio/src/pages/404.js"),
-  "component---src-pages-elements-js": require("gatsby-module-loader?name=component---src-pages-elements-js!/Users/will/Projects/portfolio/src/pages/elements.js"),
-  "component---src-pages-generic-js": require("gatsby-module-loader?name=component---src-pages-generic-js!/Users/will/Projects/portfolio/src/pages/generic.js"),
-  "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/will/Projects/portfolio/src/pages/index.js"),
-  "component---src-pages-landing-js": require("gatsby-module-loader?name=component---src-pages-landing-js!/Users/will/Projects/portfolio/src/pages/landing.js")
+  "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/will/Projects/portfolio/src/pages/index.js")
 }
 
 exports.json = {
@@ -23,13 +20,7 @@ exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/will/Projects/portfolio/.cache/json/404.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "elements.json": require("gatsby-module-loader?name=path---elements!/Users/will/Projects/portfolio/.cache/json/elements.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "generic.json": require("gatsby-module-loader?name=path---generic!/Users/will/Projects/portfolio/.cache/json/generic.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/will/Projects/portfolio/.cache/json/index.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "landing.json": require("gatsby-module-loader?name=path---landing!/Users/will/Projects/portfolio/.cache/json/landing.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
   "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/will/Projects/portfolio/.cache/json/404-html.json")
 }

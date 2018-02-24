@@ -10,10 +10,7 @@ exports.components = {
   "component---src-templates-project-post-js": preferDefault(require("/Users/will/Projects/portfolio/src/templates/project-post.js")),
   "component---cache-dev-404-page-js": preferDefault(require("/Users/will/Projects/portfolio/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/will/Projects/portfolio/src/pages/404.js")),
-  "component---src-pages-elements-js": preferDefault(require("/Users/will/Projects/portfolio/src/pages/elements.js")),
-  "component---src-pages-generic-js": preferDefault(require("/Users/will/Projects/portfolio/src/pages/generic.js")),
-  "component---src-pages-index-js": preferDefault(require("/Users/will/Projects/portfolio/src/pages/index.js")),
-  "component---src-pages-landing-js": preferDefault(require("/Users/will/Projects/portfolio/src/pages/landing.js"))
+  "component---src-pages-index-js": preferDefault(require("/Users/will/Projects/portfolio/src/pages/index.js"))
 }
 
 exports.json = {
@@ -28,13 +25,7 @@ exports.json = {
   "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
   "404.json": require("/Users/will/Projects/portfolio/.cache/json/404.json"),
   "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "elements.json": require("/Users/will/Projects/portfolio/.cache/json/elements.json"),
-  "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "generic.json": require("/Users/will/Projects/portfolio/.cache/json/generic.json"),
-  "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
   "index.json": require("/Users/will/Projects/portfolio/.cache/json/index.json"),
-  "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
-  "landing.json": require("/Users/will/Projects/portfolio/.cache/json/landing.json"),
   "layout-index.json": require("/Users/will/Projects/portfolio/.cache/json/layout-index.json"),
   "404-html.json": require("/Users/will/Projects/portfolio/.cache/json/404-html.json")
 }

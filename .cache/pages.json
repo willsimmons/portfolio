@@ -35,32 +35,11 @@
         "path": "/404/"
     },
     {
-        "componentChunkName": "component---src-pages-elements-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "elements.json",
-        "path": "/elements/"
-    },
-    {
-        "componentChunkName": "component---src-pages-generic-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "generic.json",
-        "path": "/generic/"
-    },
-    {
         "componentChunkName": "component---src-pages-index-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "index.json",
         "path": "/"
-    },
-    {
-        "componentChunkName": "component---src-pages-landing-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "landing.json",
-        "path": "/landing/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",

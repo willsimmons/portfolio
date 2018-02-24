@@ -7,6 +7,7 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
+//this is the basis for the project template
 const Landing = (props) => (
     <div>
         <Helmet>
