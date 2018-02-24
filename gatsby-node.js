@@ -29,7 +29,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                     fileName
                   }
                 }
-                screens {
+                userScreen {
                   file {
                     url
                     fileName
@@ -41,7 +41,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
       `).then(result => {
         if (result.errors) {
-          console.log(result.errors)
           reject(result.errors)
         }
 

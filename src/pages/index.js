@@ -22,9 +22,7 @@ class HomeIndex extends React.Component {
                     <title>{siteTitle}</title>
                     <meta name="description" content={siteDescription} />
                 </Helmet>
-
                 <Banner />
-
                 <div id="main">
                     <section id="one" className="tiles"> 
                     {
@@ -32,7 +30,6 @@ class HomeIndex extends React.Component {
                             let project = projectNode.node;
                             let landing = `projects/${project.name}`
                             let screenShot = `${project.titleScreen.file.url}`
-                            console.log(project, index);
                             return (
                                 <article key={index} style={{backgroundImage: `url(${screenShot})`}}>
                                 <header className="major">
