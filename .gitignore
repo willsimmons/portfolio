@@ -58,4 +58,11 @@ typings/
 .env
 
 #gatsby created cache
+
+#webstorm 'stuff'
 .cache/
+.idea/misc.xml
+.idea/modules.xml
+.idea/portfolio.iml
+.idea/vcs.xml
+.idea/workspace.xml
