@@ -10,8 +10,9 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   return new Promise((resolve, reject) => {
     const pages = []
     const projectPost = path.resolve("./src/templates/project-post.js")
+    //look for content model JSON preview on Contentful
     resolve(graphql(`
-        {
+        { 
           allContentfulProject(limit: 1000) {
             edges {
               node {
@@ -35,6 +36,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                     fileName
                   }
                 }
+                technology
               }
             }
           }
