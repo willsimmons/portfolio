@@ -61,6 +61,7 @@ typings/
 
 #webstorm 'stuff'
 .cache/
+.idea
 .idea/misc.xml
 .idea/modules.xml
 .idea/portfolio.iml
