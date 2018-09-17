@@ -1,25 +1,24 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
-import get from 'lodash/get'
 import BannerLanding from '../components/BannerLanding'
 import pic08 from '../assets/images/pic08.jpg'
 
 class ProjectPostTemplate extends React.Component {
   render() {
-    const projectName = this.props.data.contentfulProject.name
-    const summary = this.props.data.contentfulProject.summary
-    const description = this.props.data.contentfulProject.description.childMarkdownRemark.html
-    const userScreen = this.props.data.contentfulProject.userScreen.file.url
-    const repoURL = this.props.data.contentfulProject.repoURL
-    
+    const projectName = this.props.data.contentfulProject.name;
+    // const summary = this.props.data.contentfulProject.summary;
+    const description = this.props.data.contentfulProject.description.childMarkdownRemark.html;
+    const userScreen = this.props.data.contentfulProject.userScreen.file.url;
+    const repoURL = this.props.data.contentfulProject.repoURL;
+    const techUsed = this.props.data.contentfulProject.technology.join(" + ");
+
     return <div>
         <Helmet>
           <title>{projectName}</title>
           <meta name={projectName} content="Landing Page" />
         </Helmet>
 
-        <BannerLanding title={projectName} summary={summary} />
+        <BannerLanding title={projectName} summary={techUsed} />
 
         <div id="main">
           <section id="one" className="spotlights">
@@ -66,6 +65,7 @@ export const pageQuery = graphql`
           fileName
         }
       }
+      technology
     }
   }
 `

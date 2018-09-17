@@ -1,16 +1,15 @@
-const _ = require("lodash")
-const Promise = require("bluebird")
-const path = require("path")
-const select = require(`unist-util-select`)
-const fs = require(`fs-extra`)
+const _ = require("lodash");
+const Promise = require("bluebird");
+const path = require("path");
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators
 
   return new Promise((resolve, reject) => {
-    const pages = []
-    const projectPost = path.resolve("./src/templates/project-post.js")
-    //look for content model JSON preview on Contentful
+    const projectPost = path.resolve("./src/templates/project-post.js");
+    //const sampleElements = path.resolve(`./src/templates/elements.js`);
+
+    //JSON preview of projects found on Contentful
     resolve(graphql(`
         { 
           allContentfulProject(limit: 1000) {
@@ -46,6 +45,15 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           reject(result.errors)
         }
 
+        //sample components for theme
+        // createPage({
+        //   path: `/components`,
+        //   component: sampleComponents,
+        //   context: {
+        //       name: `Sample Components`,
+        //   }
+        // });
+
         _.each(result.data.allContentfulProject.edges, edge => {
           createPage({
             path: `/projects/${edge.node.name}/`,
@@ -53,7 +61,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             context: {
               name: `${edge.node.name}`,
             },
-          })
+          });
         })
       })
     )
