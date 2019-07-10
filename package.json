@@ -5,7 +5,7 @@
   "author": "Will Simmons",
   "dependencies": {
     "dotenv": "^5.0.0",
-    "gatsby": "^1.9.277",
+    "gatsby": "^2.0.0",
     "gatsby-cli": "^1.1.44",
     "gatsby-image": "^1.0.27",
     "gatsby-link": "^1.6.28",
@@ -20,7 +20,7 @@
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.21",
     "gatsby-transformer-sharp": "^1.6.14",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.12",
     "node-fetch": "^2.0.0",
     "prop-types": "^15.6.0"
   },
