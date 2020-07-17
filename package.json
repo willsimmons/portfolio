@@ -6,7 +6,7 @@
   "dependencies": {
     "dotenv": "^5.0.0",
     "gatsby": "^1.9.277",
-    "gatsby-cli": "^1.1.44",
+    "gatsby-cli": "^2.12.61",
     "gatsby-image": "^1.0.27",
     "gatsby-link": "^1.6.28",
     "gatsby-plugin-favicon": "^2.1.1",
